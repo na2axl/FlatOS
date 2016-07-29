@@ -1,0 +1,202 @@
+.flatos_codemaster .flatos_codemaster_editor_tools {
+    height: 36px;
+}
+
+.flatos_codemaster .flatos_codemaster_icon {
+    float: left;
+    width: 36px;
+    height: 36px;
+    margin: 0;
+    padding: 6px;
+    background-color: transparent;
+    border: 0 none;
+}
+
+.flatos_codemaster .flatos_codemaster_icon:hover {
+    background-color: #161616;
+}
+
+.flatos_codemaster .flatos_codemaster_icon svg {
+    width: 24px;
+    height: 24px;
+    fill: #ffffff;
+}
+
+.flatos_codemaster .flatos_codemaster_editor {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+}
+
+.flatos_codemaster .flatos_codemaster_dialog {
+    background-color: #ddd;
+    font-family: "Monaco","Menlo","Ubuntu Mono","Consolas","source-code-pro",monospace;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 4px 6px 0px 4px;
+    border-bottom: 1px solid #cbcbcb;
+    border-left: 1px solid #cbcbcb;
+    border-bottom-left-radius: 5px;
+    padding: 4px 6px 0px 4px;
+    position: absolute;
+    right: 0px;
+    top: 68px;
+    z-index: 99;
+    max-width: 325px;
+}
+
+.flatos_codemaster .flatos_codemaster_dialog select,
+.flatos_codemaster .flatos_codemaster_dialog input[type=text] {
+    background-color: #fff;
+    float: left;
+    font-size: 13.3333px;
+    height: 22px;
+    line-height: 17px;
+    padding: 0px 7px;
+    width: 200px;
+    border: 0 none;
+}
+
+.flatos_codemaster .flatos_codemaster_dialog button.search_arrow_right {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAYAAAB4ka1VAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAADRJREFUeNpiTE1NZQCC/0DMyIAKwGJMUAYDEo3M/s+EpvM/mkKwCQxYjIeLMaELoLMBAgwAU7UJObTKsvAAAAAASUVORK5CYII=);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.flatos_codemaster .flatos_codemaster_dialog button {
+    background: #fff;
+    border: 0 none;
+    border-left: 1px solid #dcdcdc;
+    cursor: pointer;
+    float: left;
+    height: 22px;
+    margin: 0;
+    padding: 0 5px;
+    position: relative;
+    min-width: 30px;
+}
+
+.flatos_codemaster .flatos_codemaster_close_dialog:hover {
+    background-color: #656565;
+    background-position: 50% 100%;
+    color: white;
+}
+.flatos_codemaster .flatos_codemaster_close_dialog {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAcCAYAAABRVo5BAAAAZ0lEQVR42u2SUQrAMAhDvazn8OjZBilCkYVVxiis8H4CT0VrAJb4WHT3C5xU2a2IQZXJjiQIRMdkEoJ5Q2yMqpfDIo+XY4k6h+YXOyKqTIj5REaxloNAd0xiKmAtsTHqW8sR2W5f7gCu5nWFUpVjZwAAAABJRU5ErkJggg==) no-repeat 50% 0;
+    border-radius: 50%;
+    border: 0 none;
+    color: #656565;
+    cursor: pointer;
+    float: right;
+    font: 16px/16px Arial;
+    height: 14px;
+    margin: 5px 1px 9px 5px;
+    padding: 0;
+    text-align: center;
+    width: 14px;
+}
+
+.flatos_codemaster .flatos_codemaster_dialog .flatos_codemaster_search_and_button {
+    border-radius: 3px;
+    border: 1px solid #cbcbcb;
+    float: left;
+    overflow: hidden;
+}
+
+.flatos_codemaster .flatos_codemaster_dialog form {
+    float: left;
+    display: block;
+    width: 100%;
+}
+
+.flatos_codemaster .flatos_codemaster_dialog p {
+    margin-bottom: 2px;
+}
+
+.flatos_codemaster .flatos_codemaster_dialog fieldset {
+    border: 1px solid #bbb;
+    padding: 4px 6px 8px;
+    margin-bottom: 5px;
+}
+
+.flatos_codemaster .flatos_codemaster_dialog fieldset legend {
+    padding: 0 4px;
+}
+
+.flatos_codemaster .panel-wrapper {
+    padding: 0;
+    height: 100%;
+}
+
+.flatos_codemaster .panel-wrapper > nav {
+    padding: 0;
+    margin: 0;
+}
+
+.flatos_codemaster .nav-panel {
+    border-bottom: 1px solid #DDD;
+    padding-left: 0px;
+    margin-bottom: 0px;
+    list-style: outside none none;
+}
+
+.flatos_codemaster .nav-panel::before,
+.flatos_codemaster .nav-panel::after {
+    display: table;
+    content: " ";
+}
+
+.flatos_codemaster .nav-panel::after {
+    clear: both;
+}
+
+.flatos_codemaster .nav-panel > li {
+    margin-bottom: -2px;
+    position: relative;
+    display: inline-block;
+}
+
+.flatos_codemaster .nav-panel > li > a.active,
+.flatos_codemaster .nav-panel > li > a.active:hover {
+    color: #262626;
+    cursor: default;
+    background-color: #FFF;
+    border-width: 1px;
+    border-bottom-width: 2px;
+    border-style: solid;
+    border-color: #DDD #DDD transparent;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -webkit-border-image: none;
+    -moz-border-image: none;
+    -o-border-image: none;
+    border-image: none;
+}
+
+.flatos_codemaster .nav-panel > li > a {
+    margin-right: 2px;
+    line-height: 1.42857;
+    border: 1px solid transparent;
+    position: relative;
+    display: block;
+    padding: 5px;
+    background-color: #161616;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.flatos_codemaster .panel-wrapper {
+    height: calc(100% - 36px);
+}
+
+.flatos_codemaster .panel-wrapper .panels {
+    height: 100%;
+}
+
+.flatos_codemaster .panel-wrapper .panel {
+    padding: 0;
+    height: calc(100% - 34px);
+}

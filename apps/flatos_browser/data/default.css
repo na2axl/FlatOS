@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'webnavigo';
+    src: url('./fonts/r.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'webnavigo';
+    src: url('./fonts/b.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'webnavigo';
+    src: url('./fonts/i.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'webnavigo';
+    src: url('./fonts/z.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+body {
+    font-family: 'webnavigo' !important;
+    max-width: 750px;
+    height: 500px;
+    vertical-align: middle;
+    margin: 0 auto !important;
+    padding: 0;
+    text-align: center;
+}
+
+.webnavigo_page_header {
+    padding: 100px 0 50px 0;
+    font-weight: bold;
+}
+
+.webnavigo_default_home_logo img{
+    width: 128px;
+    height: 128px;
+}
+
+.webnavigo_default_home_title {
+    font-size: 2.5em;
+    letter-spacing: 1px;
+}
+
+.webnavigo_default_home_title .web {
+    color: #06c;
+}
+
+.webnavigo_default_home_title .navigo {
+    color: #c00;
+}
+
+.webnavigo_page_content {
+    padding: 50px 0 100px 0;
+}
+
+.webnavigo_browser_form {
+    float: left;
+    width: 100%;
+    padding: 0 50px;
+}
+
+.webnavigo_browser_form .webnavigo_browser_url {
+    float: left;
+    height: 32px;
+    padding: 5px;
+    border: 2px solid #06c;
+    width: 80%;
+    margin: 0;
+    outline: none;
+    transition: border-color ease .3s 0s;
+}
+
+.webnavigo_browser_form .button.ok {
+    float: left;
+    height: 32px;
+    padding: 5px;
+    border: 0 none;
+    width: 20%;
+    margin: 0;
+    font-weight: bold;
+    color: #fff;
+    background-color: #06c;
+    transition: background-color ease .3s 0s;
+}
+
+.webnavigo_browser_form .webnavigo_browser_url.active {
+    border-color: #c00;
+}
+
+.webnavigo_browser_form .button.ok.active {
+    background-color: #c00;
+}
+
+.webnavigo_browser_form .webnavigo_browser_url:focus {
+    outline: none;
+}

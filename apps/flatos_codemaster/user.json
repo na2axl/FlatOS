@@ -1,0 +1,12 @@
+{
+    "default_lang": "php",
+    "editor_theme": "ambiance",
+    "font_size": "16",
+    "highlight_active_line": "on",
+    "show_invisibles": false,
+    "show_indent_guides": true,
+    "show_print_margin": false,
+    "use_soft_tabs": true,
+    "autocomplete": true,
+    "indent_size": "4"
+}

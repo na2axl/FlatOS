@@ -1,0 +1,39 @@
+._flatos_about_app_dialog .about_apps_window_header {
+    margin: 0;
+    width: 100%;
+    background-color: #FFF;
+    height: 300px;
+    float: left;
+}
+
+._flatos_about_app_dialog .about_apps_window_footer {
+    margin: 0;
+    width: 100%;
+    height: 64px;
+    float: left;
+    text-align: center;
+    padding: 16px 0;
+}
+
+._flatos_about_app_dialog .button {
+    max-width: 100px;
+    margin: 0 auto;
+}
+
+._flatos_about_app_dialog .about_apps_window_header .about_apps_window_icon {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+._flatos_about_app_dialog .about_apps_window_header .about_apps_window_icon img {
+    height: 192px;
+}
+
+._flatos_about_app_dialog .about_apps_window_header .about_apps_window_desc,
+._flatos_about_app_dialog .about_apps_window_header .about_apps_window_copy {
+    padding: 5px 0;
+    float: left;
+    width: 100%;
+    text-align: center;
+}

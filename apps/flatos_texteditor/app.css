@@ -1,0 +1,21 @@
+.flatos_texteditor .textEditWidget
+{
+    width: 100%;
+    height: 100%;
+    padding: 16px;
+    outline: none;
+    border: 0 none !important;
+    overflow: scroll;
+}
+
+.flatos_texteditor .textEditWidget:focus
+{
+    outline: none;
+    border: 0 none !important;
+}
+
+.flatos_texteditor .textEditWidget:hover
+{
+    outline: none;
+    border: 0 none !important;
+}

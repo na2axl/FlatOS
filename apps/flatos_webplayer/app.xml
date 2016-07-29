@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<appconfig>
+    <attribute name="app_name" value="FlatOS Media Player" />
+    <attribute name="app_desc" value="An advanced video player for FlatOS" />
+    <attribute name="app_auth" value="Axel Nana" />
+    <attribute name="app_copy" value="(c) Centers Technologies. All rights reserved." />
+    <attribute name="process_id" value="flatos_webplayer" />
+    <attribute name="multi_instance" value="0" />
+    <attribute name="height" value="300" />
+    <attribute name="width" value="300" />
+    <attribute name="app_icon" value="{app_uri}/app.svg" />
+    <includes>
+        <file path="{app_uri}/player/jsmediatags.js" />
+        <file path="{app_uri}/player/player.js" />
+    </includes>
+</appconfig>

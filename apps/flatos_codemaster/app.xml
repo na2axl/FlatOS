@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<appconfig>
+    <attribute name="app_name" value="CodeMaster" />
+    <attribute name="app_desc" value="CodeMaster is a lite and simple IDE for FlatOS" />
+    <attribute name="app_auth" value="Axel Nana" />
+    <attribute name="app_copy" value="(c) Centers Technologies. All rights reserved." />
+    <attribute name="process_id" value="flatos_codemaster" />
+    <attribute name="multi_instance" value="0" />
+    <attribute name="height" value="500" />
+    <attribute name="width" value="700" />
+    <attribute name="app_icon" value="{app_uri}/app.svg" />
+    <includes>
+        <file path="{app_uri}/js/ace/ace.js" />
+        <file path="{app_uri}/js/ace/ext-language_tools.js" />
+    </includes>
+    <menu name="File" id="file" />
+        <menu name="New" parent="file" id="new" />
+        <menu name="Open" parent="file" id="open" />
+        <menu name="Save" parent="file" id="save" />
+        <menu name="Save as..." parent="file" id="save_as" />
+        <menu name="Quit" parent="file" id="quit" />
+    <menu name="Edit" id="edit" />
+        <menu name="Undo" parent="edit" id="undo" />
+        <menu name="Redo" parent="edit" id="redo" />
+        <menu name="Select all" parent="edit" id="select_all" />
+        <menu name="Clean document" parent="edit" id="clean_doc" />
+    <menu name="View" id="view" />
+        <menu name="Language" parent="view" id="lang" />
+            <menu name="A" parent="lang" id="lang_a" />
+                <menu name="ABAP" parent="lang_a" id="abap" />
+                <menu name="ABC" parent="lang_a" id="abc" />
+                <menu name="ActionScript" parent="lang_a" id="actionscript" />
+                <menu name="ADA" parent="lang_a" id="ada" />
+                <menu name="Apache Configuration" parent="lang_a" id="apache_conf" />
+                <menu name="Assembly x86" parent="lang_a" id="assembly_x86" />
+            <menu name="B" parent="lang" id="lang_b" />
+                <menu name="Bash" parent="lang_b" id="sh" />
+                <menu name="Batch" parent="lang_b" id="batchfile" />
+            <menu name="C" parent="lang" id="lang_c" />
+                <menu name="C/C++" parent="lang_c" id="c_cpp" />
+                <menu name="Clojure" parent="lang_c" id="clojure" />
+                <menu name="Cobol" parent="lang_c" id="cobol" />
+                <menu name="CoffeeScript" parent="lang_c" id="coffee" />
+                <menu name="ColdFusion" parent="lang_c" id="coldfusion" />
+                <menu name="C#" parent="lang_c" id="csharp" />
+                <menu name="CSS" parent="lang_c" id="css" />
+            <menu name="D" parent="lang" id="lang_d" />
+                <menu name="D" parent="lang_d" id="d" />
+                <menu name="Dart" parent="lang_d" id="dart" />
+                <menu name="Diff" parent="lang_d" id="diff" />
+                <menu name="Django" parent="lang_d" id="django" />
+                <menu name="Docker" parent="lang_d" id="dockerfile" />
+            <menu name="E" parent="lang" id="lang_e" />
+                <menu name="Eiffel" parent="lang_e" id="eiffel" />
+                <menu name="EJS" parent="lang_e" id="ejs" />
+                <menu name="Elixir" parent="lang_e" id="elixir" />
+            <menu name="F" parent="lang" id="lang_f" />
+                <menu name="Forth" parent="lang_f" id="forth" />
+                <menu name="FTL" parent="lang_f" id="ftl" />
+            <menu name="G" parent="lang" id="lang_g" />
+                <menu name="Gcode" parent="lang_g" id="gcode" />
+                <menu name="gitignore" parent="lang_g" id="gitignore" />
+                <menu name="GLSL" parent="lang_g" id="glsl" />
+                <menu name="Go" parent="lang_g" id="golang" />
+                <menu name="Groovy" parent="lang_g" id="groovy" />
+            <menu name="H" parent="lang" id="lang_h" />
+                <menu name="Haml" parent="lang_h" id="haml" />
+                <menu name="Haskell" parent="lang_h" id="haskell" />
+                <menu name="Haxe" parent="lang_h" id="haxe" />
+                <menu name="HTML" parent="lang_h" id="html" />
+            <menu name="I" parent="lang" id="lang_i" />
+                <menu name="Ini" parent="lang_i" id="ini" />
+                <menu name="Io" parent="lang_i" id="io" />
+            <menu name="J" parent="lang" id="lang_j" />
+                <menu name="Jade" parent="lang_j" id="jade" />
+                <menu name="Java" parent="lang_j" id="java" />
+                <menu name="JavaScript" parent="lang_j" id="javascript" />
+                <menu name="JSON" parent="lang_j" id="json" />
+                <menu name="JSP" parent="lang_j" id="jsp" />
+                <menu name="JSX" parent="lang_j" id="jsx" />
+            <menu name="L" parent="lang" id="lang_l" />
+                <menu name="LaTeX" parent="lang_l" id="latex" />
+                <menu name="LESS" parent="lang_l" id="less" />
+                <menu name="Liquid" parent="lang_l" id="liquid" />
+                <menu name="Lisp" parent="lang_l" id="lisp" />
+                <menu name="LiveScript" parent="lang_l" id="livescript" />
+                <menu name="LUA" parent="lang_l" id="lua" />
+            <menu name="M" parent="lang" id="lang_m" />
+                <menu name="MakeFile" parent="lang_m" id="makefile" />
+                <menu name="Markdown" parent="lang_m" id="markdown" />
+                <menu name="Mask" parent="lang_m" id="mask" />
+                <menu name="Matlab" parent="lang_m" id="matlab" />
+                <menu name="Mel" parent="lang_m" id="mel" />
+            <menu name="N" parent="lang" id="lang_n" />
+                <menu name="NIX" parent="lang_n" id="nix" />
+            <menu name="O" parent="lang" id="lang_o" />
+                <menu name="Objective-C" parent="lang_o" id="objectivec" />
+                <menu name="OCaml" parent="lang_o" id="ocaml" />
+            <menu name="P" parent="lang" id="lang_p" />
+                <menu name="Pascal" parent="lang_p" id="pascal" />
+                <menu name="Perl" parent="lang_p" id="perl" />
+                <menu name="PHP" parent="lang_p" id="php" />
+                <menu name="Powershell" parent="lang_p" id="powershell" />
+                <menu name="Python" parent="lang_p" id="python" />
+            <menu name="R" parent="lang" id="lang_r" />
+                <menu name="R" parent="lang_r" id="r" />
+                <menu name="Ruby" parent="lang_r" id="ruby" />
+            <menu name="S" parent="lang" id="lang_s" />
+                <menu name="Sass" parent="lang_s" id="sass" />
+                <menu name="Scala" parent="lang_s" id="scala" />
+                <menu name="SCSS" parent="lang_s" id="scss" />
+                <menu name="Smarty" parent="lang_s" id="smarty" />
+                <menu name="SQL" parent="lang_s" id="sql" />
+                <menu name="SVG" parent="lang_s" id="svg" />
+            <menu name="T" parent="lang" id="lang_t" />
+                <menu name="Tcl" parent="lang_t" id="tcl" />
+                <menu name="TEX" parent="lang_t" id="tex" />
+                <menu name="Text" parent="lang_t" id="text" />
+                <menu name="Textile" parent="lang_t" id="textile" />
+                <menu name="TWIG" parent="lang_t" id="twig" />
+                <menu name="TypeScript" parent="lang_t" id="typescript" />
+            <menu name="V" parent="lang" id="lang_v" />
+                <menu name="VisualBasic Script" parent="lang_v" id="vbscript" />
+            <menu name="X" parent="lang" id="lang_x" />
+                <menu name="XML" parent="lang_x" id="xml" />
+                <menu name="XQuery" parent="lang_x" id="xquery" />
+            <menu name="Y" parent="lang" id="lang_y" />
+                <menu name="YAML" parent="lang_y" id="yaml" />
+        <menu name="Toggle Wrap Mode" id="wrap_mode" parent="view" />
+        <menu name="Read Only Mode" id="read_only" parent="view" />
+        <menu name="Fold Selection" id="fold" parent="view" />
+        <menu name="Unfold Selection" id="unfold" parent="view" />
+        <menu name="Fold Other" id="fold_other" parent="view" />
+        <menu name="Unfold All" id="unfold_all" parent="view" />
+    <menu name="Search" id="search" />
+        <menu name="Find" id="find" parent="search" />
+        <menu name="Replace" id="replace" parent="search" />
+        <menu name="Find Next" id="find_next" parent="search" />
+        <menu name="Find Previous" id="find_prev" parent="search" />
+        <menu name="Go To..." id="go_to" parent="search" />
+    <menu name="Debug" id="debug" />
+        <menu name="Go to Next Error" id="go_to_next_err" parent="debug" />
+        <menu name="Go to Previous Error" id="go_to_prev_err" parent="debug" />
+    <menu name="Format" id="format" />
+        <menu name="Comment Lines" id="comment_lines" parent="format" />
+        <menu name="To Lower Case" id="lower_case" parent="format" />
+        <menu name="To Upper Case" id="upper_case" parent="format" />
+    <menu name="Preferences" id="preferences" />
+    <menu name="Help" id="help" />
+        <menu name="About CodeMaster" id="about_app" parent="help" />
+        <menu name="About this Document" id="about_doc" parent="help" />
+</appconfig>

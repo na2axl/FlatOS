@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<appconfig>
+    <attribute name="app_name" value="Text Editor" />
+    <attribute name="app_desc" value="A simple text editor." />
+    <attribute name="app_auth" value="Axel Nana" />
+    <attribute name="app_copy" value="(c) Centers Technologies. All rights reserved." />
+    <attribute name="process_id" value="flatos_texteditor" />
+    <attribute name="app_icon" value="{app_uri}/app.svg" />
+    <attribute name="multi_instance" value="1" />
+    <attribute name="height" value="500" />
+    <attribute name="width" value="600" />
+    <menu name="File" id="file" />
+        <menu name="New" parent="file" id="new" />
+        <menu name="Open" parent="file" id="open" />
+        <menu name="Save" parent="file" id="save" />
+        <menu name="Save as..." parent="file" id="save_as" />
+        <menu name="Quit" parent="file" id="quit" />
+    <menu name="Edit" id="edit" />
+        <menu name="Undo" parent="edit" id="undo" />
+        <menu name="Redo" parent="edit" id="redo" />
+        <menu name="Select all" parent="edit" id="select_all" />
+        <menu name="Clean document" parent="edit" id="clean_doc" />
+</appconfig>

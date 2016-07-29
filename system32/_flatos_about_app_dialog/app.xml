@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<appconfig>
+    <attribute name="app_name" value="About Apps Dialog" />
+    <attribute name="app_desc" value="A popup window to show informations about an application." />
+    <attribute name="app_auth" value="Axel Nana" />
+    <attribute name="app_copy" value="(c) Centers Technologies. All rights reserved." />
+    <attribute name="process_id" value="_flatos_about_app_dialog" />
+    <attribute name="multi_instance" value="1" />
+    <attribute name="height" value="400" />
+    <attribute name="width" value="600" />
+</appconfig>

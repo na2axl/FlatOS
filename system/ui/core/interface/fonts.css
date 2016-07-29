@@ -1,0 +1,2986 @@
+/* Base font */
+
+@font-face {
+    font-family: 'Default';
+    src: url('./fonts/Segoe UI/r.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Default';
+    src: url('./fonts/Segoe UI/b.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Default';
+    src: url('./fonts/Segoe UI/i.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Default';
+    src: url('./fonts/Segoe UI/bi.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+/* FlatOSIcon */
+
+@font-face {
+    font-family: "FlatOSIcon";
+    src: url("./fonts/Ionicons/ionicons.eot?v=2.0.1");
+    src: url("./fonts/Ionicons/ionicons.eot?v=2.0.1#iefix") format("embedded-opentype"), url("./fonts/Ionicons/ionicons.ttf?v=2.0.1") format("truetype"), url("./fonts/Ionicons/ionicons.woff?v=2.0.1") format("woff"), url("./fonts/Ionicons/ionicons.svg?v=2.0.1#Ionicons") format("svg");
+    font-weight: normal;
+    font-style: normal
+}
+
+.flatos-icon:before {
+    margin-right: 5px;
+    display: inline-block;
+    font-family: "FlatOSIcon";
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.flatos-alert-circled:before {
+    content: "\f100"
+}
+
+.flatos-alert:before {
+    content: "\f101"
+}
+
+.flatos-android-add-circle:before {
+    content: "\f359"
+}
+
+.flatos-android-add:before {
+    content: "\f2c7"
+}
+
+.flatos-android-alarm-clock:before {
+    content: "\f35a"
+}
+
+.flatos-android-alert:before {
+    content: "\f35b"
+}
+
+.flatos-android-apps:before {
+    content: "\f35c"
+}
+
+.flatos-android-archive:before {
+    content: "\f2c9"
+}
+
+.flatos-android-arrow-back:before {
+    content: "\f2ca"
+}
+
+.flatos-android-arrow-down:before {
+    content: "\f35d"
+}
+
+.flatos-android-arrow-dropdown-circle:before {
+    content: "\f35e"
+}
+
+.flatos-android-arrow-dropdown:before {
+    content: "\f35f"
+}
+
+.flatos-android-arrow-dropleft-circle:before {
+    content: "\f360"
+}
+
+.flatos-android-arrow-dropleft:before {
+    content: "\f361"
+}
+
+.flatos-android-arrow-dropright-circle:before {
+    content: "\f362"
+}
+
+.flatos-android-arrow-dropright:before {
+    content: "\f363"
+}
+
+.flatos-android-arrow-dropup-circle:before {
+    content: "\f364"
+}
+
+.flatos-android-arrow-dropup:before {
+    content: "\f365"
+}
+
+.flatos-android-arrow-forward:before {
+    content: "\f30f"
+}
+
+.flatos-android-arrow-up:before {
+    content: "\f366"
+}
+
+.flatos-android-attach:before {
+    content: "\f367"
+}
+
+.flatos-android-bar:before {
+    content: "\f368"
+}
+
+.flatos-android-bicycle:before {
+    content: "\f369"
+}
+
+.flatos-android-boat:before {
+    content: "\f36a"
+}
+
+.flatos-android-bookmark:before {
+    content: "\f36b"
+}
+
+.flatos-android-bulb:before {
+    content: "\f36c"
+}
+
+.flatos-android-bus:before {
+    content: "\f36d"
+}
+
+.flatos-android-calendar:before {
+    content: "\f2d1"
+}
+
+.flatos-android-call:before {
+    content: "\f2d2"
+}
+
+.flatos-android-camera:before {
+    content: "\f2d3"
+}
+
+.flatos-android-cancel:before {
+    content: "\f36e"
+}
+
+.flatos-android-car:before {
+    content: "\f36f"
+}
+
+.flatos-android-cart:before {
+    content: "\f370"
+}
+
+.flatos-android-chat:before {
+    content: "\f2d4"
+}
+
+.flatos-android-checkbox-blank:before {
+    content: "\f371"
+}
+
+.flatos-android-checkbox-outline-blank:before {
+    content: "\f372"
+}
+
+.flatos-android-checkbox-outline:before {
+    content: "\f373"
+}
+
+.flatos-android-checkbox:before {
+    content: "\f374"
+}
+
+.flatos-android-checkmark-circle:before {
+    content: "\f375"
+}
+
+.flatos-android-clipboard:before {
+    content: "\f376"
+}
+
+.flatos-android-close:before {
+    content: "\f2d7"
+}
+
+.flatos-android-cloud-circle:before {
+    content: "\f377"
+}
+
+.flatos-android-cloud-done:before {
+    content: "\f378"
+}
+
+.flatos-android-cloud-outline:before {
+    content: "\f379"
+}
+
+.flatos-android-cloud:before {
+    content: "\f37a"
+}
+
+.flatos-android-color-palette:before {
+    content: "\f37b"
+}
+
+.flatos-android-compass:before {
+    content: "\f37c"
+}
+
+.flatos-android-contact:before {
+    content: "\f2d8"
+}
+
+.flatos-android-contacts:before {
+    content: "\f2d9"
+}
+
+.flatos-android-contract:before {
+    content: "\f37d"
+}
+
+.flatos-android-create:before {
+    content: "\f37e"
+}
+
+.flatos-android-delete:before {
+    content: "\f37f"
+}
+
+.flatos-android-desktop:before {
+    content: "\f380"
+}
+
+.flatos-android-document:before {
+    content: "\f381"
+}
+
+.flatos-android-done-all:before {
+    content: "\f382"
+}
+
+.flatos-android-done:before {
+    content: "\f383"
+}
+
+.flatos-android-download:before {
+    content: "\f2dd"
+}
+
+.flatos-android-drafts:before {
+    content: "\f384"
+}
+
+.flatos-android-exit:before {
+    content: "\f385"
+}
+
+.flatos-android-expand:before {
+    content: "\f386"
+}
+
+.flatos-android-favorite-outline:before {
+    content: "\f387"
+}
+
+.flatos-android-favorite:before {
+    content: "\f388"
+}
+
+.flatos-android-film:before {
+    content: "\f389"
+}
+
+.flatos-android-folder-open:before {
+    content: "\f38a"
+}
+
+.flatos-android-folder:before {
+    content: "\f2e0"
+}
+
+.flatos-android-funnel:before {
+    content: "\f38b"
+}
+
+.flatos-android-globe:before {
+    content: "\f38c"
+}
+
+.flatos-android-hand:before {
+    content: "\f2e3"
+}
+
+.flatos-android-hangout:before {
+    content: "\f38d"
+}
+
+.flatos-android-happy:before {
+    content: "\f38e"
+}
+
+.flatos-android-home:before {
+    content: "\f38f"
+}
+
+.flatos-android-image:before {
+    content: "\f2e4"
+}
+
+.flatos-android-laptop:before {
+    content: "\f390"
+}
+
+.flatos-android-list:before {
+    content: "\f391"
+}
+
+.flatos-android-locate:before {
+    content: "\f2e9"
+}
+
+.flatos-android-lock:before {
+    content: "\f392"
+}
+
+.flatos-android-mail:before {
+    content: "\f2eb"
+}
+
+.flatos-android-map:before {
+    content: "\f393"
+}
+
+.flatos-android-menu:before {
+    content: "\f394"
+}
+
+.flatos-android-microphone-off:before {
+    content: "\f395"
+}
+
+.flatos-android-microphone:before {
+    content: "\f2ec"
+}
+
+.flatos-android-more-horizontal:before {
+    content: "\f396"
+}
+
+.flatos-android-more-vertical:before {
+    content: "\f397"
+}
+
+.flatos-android-navigate:before {
+    content: "\f398"
+}
+
+.flatos-android-notifications-none:before {
+    content: "\f399"
+}
+
+.flatos-android-notifications-off:before {
+    content: "\f39a"
+}
+
+.flatos-android-notifications:before {
+    content: "\f39b"
+}
+
+.flatos-android-open:before {
+    content: "\f39c"
+}
+
+.flatos-android-options:before {
+    content: "\f39d"
+}
+
+.flatos-android-people:before {
+    content: "\f39e"
+}
+
+.flatos-android-person-add:before {
+    content: "\f39f"
+}
+
+.flatos-android-person:before {
+    content: "\f3a0"
+}
+
+.flatos-android-phone-landscape:before {
+    content: "\f3a1"
+}
+
+.flatos-android-phone-portrait:before {
+    content: "\f3a2"
+}
+
+.flatos-android-pin:before {
+    content: "\f3a3"
+}
+
+.flatos-android-plane:before {
+    content: "\f3a4"
+}
+
+.flatos-android-playstore:before {
+    content: "\f2f0"
+}
+
+.flatos-android-print:before {
+    content: "\f3a5"
+}
+
+.flatos-android-radio-button-off:before {
+    content: "\f3a6"
+}
+
+.flatos-android-radio-button-on:before {
+    content: "\f3a7"
+}
+
+.flatos-android-refresh:before {
+    content: "\f3a8"
+}
+
+.flatos-android-remove-circle:before {
+    content: "\f3a9"
+}
+
+.flatos-android-remove:before {
+    content: "\f2f4"
+}
+
+.flatos-android-restaurant:before {
+    content: "\f3aa"
+}
+
+.flatos-android-sad:before {
+    content: "\f3ab"
+}
+
+.flatos-android-search:before {
+    content: "\f2f5"
+}
+
+.flatos-android-send:before {
+    content: "\f2f6"
+}
+
+.flatos-android-settings:before {
+    content: "\f2f7"
+}
+
+.flatos-android-share-alt:before {
+    content: "\f3ac"
+}
+
+.flatos-android-share:before {
+    content: "\f2f8"
+}
+
+.flatos-android-star-half:before {
+    content: "\f3ad"
+}
+
+.flatos-android-star-outline:before {
+    content: "\f3ae"
+}
+
+.flatos-android-star:before {
+    content: "\f2fc"
+}
+
+.flatos-android-stopwatch:before {
+    content: "\f2fd"
+}
+
+.flatos-android-subway:before {
+    content: "\f3af"
+}
+
+.flatos-android-sunny:before {
+    content: "\f3b0"
+}
+
+.flatos-android-sync:before {
+    content: "\f3b1"
+}
+
+.flatos-android-textsms:before {
+    content: "\f3b2"
+}
+
+.flatos-android-time:before {
+    content: "\f3b3"
+}
+
+.flatos-android-train:before {
+    content: "\f3b4"
+}
+
+.flatos-android-unlock:before {
+    content: "\f3b5"
+}
+
+.flatos-android-upload:before {
+    content: "\f3b6"
+}
+
+.flatos-android-volume-down:before {
+    content: "\f3b7"
+}
+
+.flatos-android-volume-mute:before {
+    content: "\f3b8"
+}
+
+.flatos-android-volume-off:before {
+    content: "\f3b9"
+}
+
+.flatos-android-volume-up:before {
+    content: "\f3ba"
+}
+
+.flatos-android-walk:before {
+    content: "\f3bb"
+}
+
+.flatos-android-warning:before {
+    content: "\f3bc"
+}
+
+.flatos-android-watch:before {
+    content: "\f3bd"
+}
+
+.flatos-android-wifi:before {
+    content: "\f305"
+}
+
+.flatos-aperture:before {
+    content: "\f313"
+}
+
+.flatos-archive:before {
+    content: "\f102"
+}
+
+.flatos-arrow-down-a:before {
+    content: "\f103"
+}
+
+.flatos-arrow-down-b:before {
+    content: "\f104"
+}
+
+.flatos-arrow-down-c:before {
+    content: "\f105"
+}
+
+.flatos-arrow-expand:before {
+    content: "\f25e"
+}
+
+.flatos-arrow-graph-down-left:before {
+    content: "\f25f"
+}
+
+.flatos-arrow-graph-down-right:before {
+    content: "\f260"
+}
+
+.flatos-arrow-graph-up-left:before {
+    content: "\f261"
+}
+
+.flatos-arrow-graph-up-right:before {
+    content: "\f262"
+}
+
+.flatos-arrow-left-a:before {
+    content: "\f106"
+}
+
+.flatos-arrow-left-b:before {
+    content: "\f107"
+}
+
+.flatos-arrow-left-c:before {
+    content: "\f108"
+}
+
+.flatos-arrow-move:before {
+    content: "\f263"
+}
+
+.flatos-arrow-resize:before {
+    content: "\f264"
+}
+
+.flatos-arrow-return-left:before {
+    content: "\f265"
+}
+
+.flatos-arrow-return-right:before {
+    content: "\f266"
+}
+
+.flatos-arrow-right-a:before {
+    content: "\f109"
+}
+
+.flatos-arrow-right-b:before {
+    content: "\f10a"
+}
+
+.flatos-arrow-right-c:before {
+    content: "\f10b"
+}
+
+.flatos-arrow-shrink:before {
+    content: "\f267"
+}
+
+.flatos-arrow-swap:before {
+    content: "\f268"
+}
+
+.flatos-arrow-up-a:before {
+    content: "\f10c"
+}
+
+.flatos-arrow-up-b:before {
+    content: "\f10d"
+}
+
+.flatos-arrow-up-c:before {
+    content: "\f10e"
+}
+
+.flatos-asterisk:before {
+    content: "\f314"
+}
+
+.flatos-at:before {
+    content: "\f10f"
+}
+
+.flatos-backspace-outline:before {
+    content: "\f3be"
+}
+
+.flatos-backspace:before {
+    content: "\f3bf"
+}
+
+.flatos-bag:before {
+    content: "\f110"
+}
+
+.flatos-battery-charging:before {
+    content: "\f111"
+}
+
+.flatos-battery-empty:before {
+    content: "\f112"
+}
+
+.flatos-battery-full:before {
+    content: "\f113"
+}
+
+.flatos-battery-half:before {
+    content: "\f114"
+}
+
+.flatos-battery-low:before {
+    content: "\f115"
+}
+
+.flatos-beaker:before {
+    content: "\f269"
+}
+
+.flatos-beer:before {
+    content: "\f26a"
+}
+
+.flatos-bluetooth:before {
+    content: "\f116"
+}
+
+.flatos-bonfire:before {
+    content: "\f315"
+}
+
+.flatos-bookmark:before {
+    content: "\f26b"
+}
+
+.flatos-bowtie:before {
+    content: "\f3c0"
+}
+
+.flatos-briefcase:before {
+    content: "\f26c"
+}
+
+.flatos-bug:before {
+    content: "\f2be"
+}
+
+.flatos-calculator:before {
+    content: "\f26d"
+}
+
+.flatos-calendar:before {
+    content: "\f117"
+}
+
+.flatos-camera:before {
+    content: "\f118"
+}
+
+.flatos-card:before {
+    content: "\f119"
+}
+
+.flatos-cash:before {
+    content: "\f316"
+}
+
+.flatos-chatbox-working:before {
+    content: "\f11a"
+}
+
+.flatos-chatbox:before {
+    content: "\f11b"
+}
+
+.flatos-chatboxes:before {
+    content: "\f11c"
+}
+
+.flatos-chatbubble-working:before {
+    content: "\f11d"
+}
+
+.flatos-chatbubble:before {
+    content: "\f11e"
+}
+
+.flatos-chatbubbles:before {
+    content: "\f11f"
+}
+
+.flatos-checkmark-circled:before {
+    content: "\f120"
+}
+
+.flatos-checkmark-round:before {
+    content: "\f121"
+}
+
+.flatos-checkmark:before {
+    content: "\f122"
+}
+
+.flatos-chevron-down:before {
+    content: "\f123"
+}
+
+.flatos-chevron-left:before {
+    content: "\f124"
+}
+
+.flatos-chevron-right:before {
+    content: "\f125"
+}
+
+.flatos-chevron-up:before {
+    content: "\f126"
+}
+
+.flatos-clipboard:before {
+    content: "\f127"
+}
+
+.flatos-clock:before {
+    content: "\f26e"
+}
+
+.flatos-close-circled:before {
+    content: "\f128"
+}
+
+.flatos-close-round:before {
+    content: "\f129"
+}
+
+.flatos-close:before {
+    content: "\f12a"
+}
+
+.flatos-closed-captioning:before {
+    content: "\f317"
+}
+
+.flatos-cloud:before {
+    content: "\f12b"
+}
+
+.flatos-code-download:before {
+    content: "\f26f"
+}
+
+.flatos-code-working:before {
+    content: "\f270"
+}
+
+.flatos-code:before {
+    content: "\f271"
+}
+
+.flatos-coffee:before {
+    content: "\f272"
+}
+
+.flatos-compass:before {
+    content: "\f273"
+}
+
+.flatos-compose:before {
+    content: "\f12c"
+}
+
+.flatos-connection-bars:before {
+    content: "\f274"
+}
+
+.flatos-contrast:before {
+    content: "\f275"
+}
+
+.flatos-crop:before {
+    content: "\f3c1"
+}
+
+.flatos-cube:before {
+    content: "\f318"
+}
+
+.flatos-disc:before {
+    content: "\f12d"
+}
+
+.flatos-document-text:before {
+    content: "\f12e"
+}
+
+.flatos-document:before {
+    content: "\f12f"
+}
+
+.flatos-drag:before {
+    content: "\f130"
+}
+
+.flatos-earth:before {
+    content: "\f276"
+}
+
+.flatos-easel:before {
+    content: "\f3c2"
+}
+
+.flatos-edit:before {
+    content: "\f2bf"
+}
+
+.flatos-egg:before {
+    content: "\f277"
+}
+
+.flatos-eject:before {
+    content: "\f131"
+}
+
+.flatos-email-unread:before {
+    content: "\f3c3"
+}
+
+.flatos-email:before {
+    content: "\f132"
+}
+
+.flatos-erlenmeyer-flask-bubbles:before {
+    content: "\f3c4"
+}
+
+.flatos-erlenmeyer-flask:before {
+    content: "\f3c5"
+}
+
+.flatos-eye-disabled:before {
+    content: "\f306"
+}
+
+.flatos-eye:before {
+    content: "\f133"
+}
+
+.flatos-female:before {
+    content: "\f278"
+}
+
+.flatos-filing:before {
+    content: "\f134"
+}
+
+.flatos-film-marker:before {
+    content: "\f135"
+}
+
+.flatos-fireball:before {
+    content: "\f319"
+}
+
+.flatos-flag:before {
+    content: "\f279"
+}
+
+.flatos-flame:before {
+    content: "\f31a"
+}
+
+.flatos-flash-off:before {
+    content: "\f136"
+}
+
+.flatos-flash:before {
+    content: "\f137"
+}
+
+.flatos-folder:before {
+    content: "\f139"
+}
+
+.flatos-fork-repo:before {
+    content: "\f2c0"
+}
+
+.flatos-fork:before {
+    content: "\f27a"
+}
+
+.flatos-forward:before {
+    content: "\f13a"
+}
+
+.flatos-funnel:before {
+    content: "\f31b"
+}
+
+.flatos-gear-a:before {
+    content: "\f13d"
+}
+
+.flatos-gear-b:before {
+    content: "\f13e"
+}
+
+.flatos-grid:before {
+    content: "\f13f"
+}
+
+.flatos-hammer:before {
+    content: "\f27b"
+}
+
+.flatos-happy-outline:before {
+    content: "\f3c6"
+}
+
+.flatos-happy:before {
+    content: "\f31c"
+}
+
+.flatos-headphone:before {
+    content: "\f140"
+}
+
+.flatos-heart-broken:before {
+    content: "\f31d"
+}
+
+.flatos-heart:before {
+    content: "\f141"
+}
+
+.flatos-help-buoy:before {
+    content: "\f27c"
+}
+
+.flatos-help-circled:before {
+    content: "\f142"
+}
+
+.flatos-help:before {
+    content: "\f143"
+}
+
+.flatos-home:before {
+    content: "\f144"
+}
+
+.flatos-icecream:before {
+    content: "\f27d"
+}
+
+.flatos-image:before {
+    content: "\f147"
+}
+
+.flatos-images:before {
+    content: "\f148"
+}
+
+.flatos-information-circled:before {
+    content: "\f149"
+}
+
+.flatos-information:before {
+    content: "\f14a"
+}
+
+.flatos-ionic:before {
+    content: "\f14b"
+}
+
+.flatos-ios-alarm-outline:before {
+    content: "\f3c7"
+}
+
+.flatos-ios-alarm:before {
+    content: "\f3c8"
+}
+
+.flatos-ios-albums-outline:before {
+    content: "\f3c9"
+}
+
+.flatos-ios-albums:before {
+    content: "\f3ca"
+}
+
+.flatos-ios-americanfootball-outline:before {
+    content: "\f3cb"
+}
+
+.flatos-ios-americanfootball:before {
+    content: "\f3cc"
+}
+
+.flatos-ios-analytics-outline:before {
+    content: "\f3cd"
+}
+
+.flatos-ios-analytics:before {
+    content: "\f3ce"
+}
+
+.flatos-ios-arrow-back:before {
+    content: "\f3cf"
+}
+
+.flatos-ios-arrow-down:before {
+    content: "\f3d0"
+}
+
+.flatos-ios-arrow-forward:before {
+    content: "\f3d1"
+}
+
+.flatos-ios-arrow-left:before {
+    content: "\f3d2"
+}
+
+.flatos-ios-arrow-right:before {
+    content: "\f3d3"
+}
+
+.flatos-ios-arrow-thin-down:before {
+    content: "\f3d4"
+}
+
+.flatos-ios-arrow-thin-left:before {
+    content: "\f3d5"
+}
+
+.flatos-ios-arrow-thin-right:before {
+    content: "\f3d6"
+}
+
+.flatos-ios-arrow-thin-up:before {
+    content: "\f3d7"
+}
+
+.flatos-ios-arrow-up:before {
+    content: "\f3d8"
+}
+
+.flatos-ios-at-outline:before {
+    content: "\f3d9"
+}
+
+.flatos-ios-at:before {
+    content: "\f3da"
+}
+
+.flatos-ios-barcode-outline:before {
+    content: "\f3db"
+}
+
+.flatos-ios-barcode:before {
+    content: "\f3dc"
+}
+
+.flatos-ios-baseball-outline:before {
+    content: "\f3dd"
+}
+
+.flatos-ios-baseball:before {
+    content: "\f3de"
+}
+
+.flatos-ios-basketball-outline:before {
+    content: "\f3df"
+}
+
+.flatos-ios-basketball:before {
+    content: "\f3e0"
+}
+
+.flatos-ios-bell-outline:before {
+    content: "\f3e1"
+}
+
+.flatos-ios-bell:before {
+    content: "\f3e2"
+}
+
+.flatos-ios-body-outline:before {
+    content: "\f3e3"
+}
+
+.flatos-ios-body:before {
+    content: "\f3e4"
+}
+
+.flatos-ios-bolt-outline:before {
+    content: "\f3e5"
+}
+
+.flatos-ios-bolt:before {
+    content: "\f3e6"
+}
+
+.flatos-ios-book-outline:before {
+    content: "\f3e7"
+}
+
+.flatos-ios-book:before {
+    content: "\f3e8"
+}
+
+.flatos-ios-bookmarks-outline:before {
+    content: "\f3e9"
+}
+
+.flatos-ios-bookmarks:before {
+    content: "\f3ea"
+}
+
+.flatos-ios-box-outline:before {
+    content: "\f3eb"
+}
+
+.flatos-ios-box:before {
+    content: "\f3ec"
+}
+
+.flatos-ios-briefcase-outline:before {
+    content: "\f3ed"
+}
+
+.flatos-ios-briefcase:before {
+    content: "\f3ee"
+}
+
+.flatos-ios-browsers-outline:before {
+    content: "\f3ef"
+}
+
+.flatos-ios-browsers:before {
+    content: "\f3f0"
+}
+
+.flatos-ios-calculator-outline:before {
+    content: "\f3f1"
+}
+
+.flatos-ios-calculator:before {
+    content: "\f3f2"
+}
+
+.flatos-ios-calendar-outline:before {
+    content: "\f3f3"
+}
+
+.flatos-ios-calendar:before {
+    content: "\f3f4"
+}
+
+.flatos-ios-camera-outline:before {
+    content: "\f3f5"
+}
+
+.flatos-ios-camera:before {
+    content: "\f3f6"
+}
+
+.flatos-ios-cart-outline:before {
+    content: "\f3f7"
+}
+
+.flatos-ios-cart:before {
+    content: "\f3f8"
+}
+
+.flatos-ios-chatboxes-outline:before {
+    content: "\f3f9"
+}
+
+.flatos-ios-chatboxes:before {
+    content: "\f3fa"
+}
+
+.flatos-ios-chatbubble-outline:before {
+    content: "\f3fb"
+}
+
+.flatos-ios-chatbubble:before {
+    content: "\f3fc"
+}
+
+.flatos-ios-checkmark-empty:before {
+    content: "\f3fd"
+}
+
+.flatos-ios-checkmark-outline:before {
+    content: "\f3fe"
+}
+
+.flatos-ios-checkmark:before {
+    content: "\f3ff"
+}
+
+.flatos-ios-circle-filled:before {
+    content: "\f400"
+}
+
+.flatos-ios-circle-outline:before {
+    content: "\f401"
+}
+
+.flatos-ios-clock-outline:before {
+    content: "\f402"
+}
+
+.flatos-ios-clock:before {
+    content: "\f403"
+}
+
+.flatos-ios-close-empty:before {
+    content: "\f404"
+}
+
+.flatos-ios-close-outline:before {
+    content: "\f405"
+}
+
+.flatos-ios-close:before {
+    content: "\f406"
+}
+
+.flatos-ios-cloud-download-outline:before {
+    content: "\f407"
+}
+
+.flatos-ios-cloud-download:before {
+    content: "\f408"
+}
+
+.flatos-ios-cloud-outline:before {
+    content: "\f409"
+}
+
+.flatos-ios-cloud-upload-outline:before {
+    content: "\f40a"
+}
+
+.flatos-ios-cloud-upload:before {
+    content: "\f40b"
+}
+
+.flatos-ios-cloud:before {
+    content: "\f40c"
+}
+
+.flatos-ios-cloudy-night-outline:before {
+    content: "\f40d"
+}
+
+.flatos-ios-cloudy-night:before {
+    content: "\f40e"
+}
+
+.flatos-ios-cloudy-outline:before {
+    content: "\f40f"
+}
+
+.flatos-ios-cloudy:before {
+    content: "\f410"
+}
+
+.flatos-ios-cog-outline:before {
+    content: "\f411"
+}
+
+.flatos-ios-cog:before {
+    content: "\f412"
+}
+
+.flatos-ios-color-filter-outline:before {
+    content: "\f413"
+}
+
+.flatos-ios-color-filter:before {
+    content: "\f414"
+}
+
+.flatos-ios-color-wand-outline:before {
+    content: "\f415"
+}
+
+.flatos-ios-color-wand:before {
+    content: "\f416"
+}
+
+.flatos-ios-compose-outline:before {
+    content: "\f417"
+}
+
+.flatos-ios-compose:before {
+    content: "\f418"
+}
+
+.flatos-ios-contact-outline:before {
+    content: "\f419"
+}
+
+.flatos-ios-contact:before {
+    content: "\f41a"
+}
+
+.flatos-ios-copy-outline:before {
+    content: "\f41b"
+}
+
+.flatos-ios-copy:before {
+    content: "\f41c"
+}
+
+.flatos-ios-crop-strong:before {
+    content: "\f41d"
+}
+
+.flatos-ios-crop:before {
+    content: "\f41e"
+}
+
+.flatos-ios-download-outline:before {
+    content: "\f41f"
+}
+
+.flatos-ios-download:before {
+    content: "\f420"
+}
+
+.flatos-ios-drag:before {
+    content: "\f421"
+}
+
+.flatos-ios-email-outline:before {
+    content: "\f422"
+}
+
+.flatos-ios-email:before {
+    content: "\f423"
+}
+
+.flatos-ios-eye-outline:before {
+    content: "\f424"
+}
+
+.flatos-ios-eye:before {
+    content: "\f425"
+}
+
+.flatos-ios-fastforward-outline:before {
+    content: "\f426"
+}
+
+.flatos-ios-fastforward:before {
+    content: "\f427"
+}
+
+.flatos-ios-filing-outline:before {
+    content: "\f428"
+}
+
+.flatos-ios-filing:before {
+    content: "\f429"
+}
+
+.flatos-ios-film-outline:before {
+    content: "\f42a"
+}
+
+.flatos-ios-film:before {
+    content: "\f42b"
+}
+
+.flatos-ios-flag-outline:before {
+    content: "\f42c"
+}
+
+.flatos-ios-flag:before {
+    content: "\f42d"
+}
+
+.flatos-ios-flame-outline:before {
+    content: "\f42e"
+}
+
+.flatos-ios-flame:before {
+    content: "\f42f"
+}
+
+.flatos-ios-flask-outline:before {
+    content: "\f430"
+}
+
+.flatos-ios-flask:before {
+    content: "\f431"
+}
+
+.flatos-ios-flower-outline:before {
+    content: "\f432"
+}
+
+.flatos-ios-flower:before {
+    content: "\f433"
+}
+
+.flatos-ios-folder-outline:before {
+    content: "\f434"
+}
+
+.flatos-ios-folder:before {
+    content: "\f435"
+}
+
+.flatos-ios-football-outline:before {
+    content: "\f436"
+}
+
+.flatos-ios-football:before {
+    content: "\f437"
+}
+
+.flatos-ios-game-controller-a-outline:before {
+    content: "\f438"
+}
+
+.flatos-ios-game-controller-a:before {
+    content: "\f439"
+}
+
+.flatos-ios-game-controller-b-outline:before {
+    content: "\f43a"
+}
+
+.flatos-ios-game-controller-b:before {
+    content: "\f43b"
+}
+
+.flatos-ios-gear-outline:before {
+    content: "\f43c"
+}
+
+.flatos-ios-gear:before {
+    content: "\f43d"
+}
+
+.flatos-ios-glasses-outline:before {
+    content: "\f43e"
+}
+
+.flatos-ios-glasses:before {
+    content: "\f43f"
+}
+
+.flatos-ios-grid-view-outline:before {
+    content: "\f440"
+}
+
+.flatos-ios-grid-view:before {
+    content: "\f441"
+}
+
+.flatos-ios-heart-outline:before {
+    content: "\f442"
+}
+
+.flatos-ios-heart:before {
+    content: "\f443"
+}
+
+.flatos-ios-help-empty:before {
+    content: "\f444"
+}
+
+.flatos-ios-help-outline:before {
+    content: "\f445"
+}
+
+.flatos-ios-help:before {
+    content: "\f446"
+}
+
+.flatos-ios-home-outline:before {
+    content: "\f447"
+}
+
+.flatos-ios-home:before {
+    content: "\f448"
+}
+
+.flatos-ios-infinite-outline:before {
+    content: "\f449"
+}
+
+.flatos-ios-infinite:before {
+    content: "\f44a"
+}
+
+.flatos-ios-information-empty:before {
+    content: "\f44b"
+}
+
+.flatos-ios-information-outline:before {
+    content: "\f44c"
+}
+
+.flatos-ios-information:before {
+    content: "\f44d"
+}
+
+.flatos-ios-ionic-outline:before {
+    content: "\f44e"
+}
+
+.flatos-ios-keypad-outline:before {
+    content: "\f44f"
+}
+
+.flatos-ios-keypad:before {
+    content: "\f450"
+}
+
+.flatos-ios-lightbulb-outline:before {
+    content: "\f451"
+}
+
+.flatos-ios-lightbulb:before {
+    content: "\f452"
+}
+
+.flatos-ios-list-outline:before {
+    content: "\f453"
+}
+
+.flatos-ios-list:before {
+    content: "\f454"
+}
+
+.flatos-ios-location-outline:before {
+    content: "\f455"
+}
+
+.flatos-ios-location:before {
+    content: "\f456"
+}
+
+.flatos-ios-locked-outline:before {
+    content: "\f457"
+}
+
+.flatos-ios-locked:before {
+    content: "\f458"
+}
+
+.flatos-ios-loop-strong:before {
+    content: "\f459"
+}
+
+.flatos-ios-loop:before {
+    content: "\f45a"
+}
+
+.flatos-ios-medical-outline:before {
+    content: "\f45b"
+}
+
+.flatos-ios-medical:before {
+    content: "\f45c"
+}
+
+.flatos-ios-medkit-outline:before {
+    content: "\f45d"
+}
+
+.flatos-ios-medkit:before {
+    content: "\f45e"
+}
+
+.flatos-ios-mic-off:before {
+    content: "\f45f"
+}
+
+.flatos-ios-mic-outline:before {
+    content: "\f460"
+}
+
+.flatos-ios-mic:before {
+    content: "\f461"
+}
+
+.flatos-ios-minus-empty:before {
+    content: "\f462"
+}
+
+.flatos-ios-minus-outline:before {
+    content: "\f463"
+}
+
+.flatos-ios-minus:before {
+    content: "\f464"
+}
+
+.flatos-ios-monitor-outline:before {
+    content: "\f465"
+}
+
+.flatos-ios-monitor:before {
+    content: "\f466"
+}
+
+.flatos-ios-moon-outline:before {
+    content: "\f467"
+}
+
+.flatos-ios-moon:before {
+    content: "\f468"
+}
+
+.flatos-ios-more-outline:before {
+    content: "\f469"
+}
+
+.flatos-ios-more:before {
+    content: "\f46a"
+}
+
+.flatos-ios-musical-note:before {
+    content: "\f46b"
+}
+
+.flatos-ios-musical-notes:before {
+    content: "\f46c"
+}
+
+.flatos-ios-navigate-outline:before {
+    content: "\f46d"
+}
+
+.flatos-ios-navigate:before {
+    content: "\f46e"
+}
+
+.flatos-ios-nutrition-outline:before {
+    content: "\f46f"
+}
+
+.flatos-ios-nutrition:before {
+    content: "\f470"
+}
+
+.flatos-ios-paper-outline:before {
+    content: "\f471"
+}
+
+.flatos-ios-paper:before {
+    content: "\f472"
+}
+
+.flatos-ios-paperplane-outline:before {
+    content: "\f473"
+}
+
+.flatos-ios-paperplane:before {
+    content: "\f474"
+}
+
+.flatos-ios-partlysunny-outline:before {
+    content: "\f475"
+}
+
+.flatos-ios-partlysunny:before {
+    content: "\f476"
+}
+
+.flatos-ios-pause-outline:before {
+    content: "\f477"
+}
+
+.flatos-ios-pause:before {
+    content: "\f478"
+}
+
+.flatos-ios-paw-outline:before {
+    content: "\f479"
+}
+
+.flatos-ios-paw:before {
+    content: "\f47a"
+}
+
+.flatos-ios-people-outline:before {
+    content: "\f47b"
+}
+
+.flatos-ios-people:before {
+    content: "\f47c"
+}
+
+.flatos-ios-person-outline:before {
+    content: "\f47d"
+}
+
+.flatos-ios-person:before {
+    content: "\f47e"
+}
+
+.flatos-ios-personadd-outline:before {
+    content: "\f47f"
+}
+
+.flatos-ios-personadd:before {
+    content: "\f480"
+}
+
+.flatos-ios-photos-outline:before {
+    content: "\f481"
+}
+
+.flatos-ios-photos:before {
+    content: "\f482"
+}
+
+.flatos-ios-pie-outline:before {
+    content: "\f483"
+}
+
+.flatos-ios-pie:before {
+    content: "\f484"
+}
+
+.flatos-ios-pint-outline:before {
+    content: "\f485"
+}
+
+.flatos-ios-pint:before {
+    content: "\f486"
+}
+
+.flatos-ios-play-outline:before {
+    content: "\f487"
+}
+
+.flatos-ios-play:before {
+    content: "\f488"
+}
+
+.flatos-ios-plus-empty:before {
+    content: "\f489"
+}
+
+.flatos-ios-plus-outline:before {
+    content: "\f48a"
+}
+
+.flatos-ios-plus:before {
+    content: "\f48b"
+}
+
+.flatos-ios-pricetag-outline:before {
+    content: "\f48c"
+}
+
+.flatos-ios-pricetag:before {
+    content: "\f48d"
+}
+
+.flatos-ios-pricetags-outline:before {
+    content: "\f48e"
+}
+
+.flatos-ios-pricetags:before {
+    content: "\f48f"
+}
+
+.flatos-ios-printer-outline:before {
+    content: "\f490"
+}
+
+.flatos-ios-printer:before {
+    content: "\f491"
+}
+
+.flatos-ios-pulse-strong:before {
+    content: "\f492"
+}
+
+.flatos-ios-pulse:before {
+    content: "\f493"
+}
+
+.flatos-ios-rainy-outline:before {
+    content: "\f494"
+}
+
+.flatos-ios-rainy:before {
+    content: "\f495"
+}
+
+.flatos-ios-recording-outline:before {
+    content: "\f496"
+}
+
+.flatos-ios-recording:before {
+    content: "\f497"
+}
+
+.flatos-ios-redo-outline:before {
+    content: "\f498"
+}
+
+.flatos-ios-redo:before {
+    content: "\f499"
+}
+
+.flatos-ios-refresh-empty:before {
+    content: "\f49a"
+}
+
+.flatos-ios-refresh-outline:before {
+    content: "\f49b"
+}
+
+.flatos-ios-refresh:before {
+    content: "\f49c"
+}
+
+.flatos-ios-reload:before {
+    content: "\f49d"
+}
+
+.flatos-ios-reverse-camera-outline:before {
+    content: "\f49e"
+}
+
+.flatos-ios-reverse-camera:before {
+    content: "\f49f"
+}
+
+.flatos-ios-rewind-outline:before {
+    content: "\f4a0"
+}
+
+.flatos-ios-rewind:before {
+    content: "\f4a1"
+}
+
+.flatos-ios-rose-outline:before {
+    content: "\f4a2"
+}
+
+.flatos-ios-rose:before {
+    content: "\f4a3"
+}
+
+.flatos-ios-search-strong:before {
+    content: "\f4a4"
+}
+
+.flatos-ios-search:before {
+    content: "\f4a5"
+}
+
+.flatos-ios-settings-strong:before {
+    content: "\f4a6"
+}
+
+.flatos-ios-settings:before {
+    content: "\f4a7"
+}
+
+.flatos-ios-shuffle-strong:before {
+    content: "\f4a8"
+}
+
+.flatos-ios-shuffle:before {
+    content: "\f4a9"
+}
+
+.flatos-ios-skipbackward-outline:before {
+    content: "\f4aa"
+}
+
+.flatos-ios-skipbackward:before {
+    content: "\f4ab"
+}
+
+.flatos-ios-skipforward-outline:before {
+    content: "\f4ac"
+}
+
+.flatos-ios-skipforward:before {
+    content: "\f4ad"
+}
+
+.flatos-ios-snowy:before {
+    content: "\f4ae"
+}
+
+.flatos-ios-speedometer-outline:before {
+    content: "\f4af"
+}
+
+.flatos-ios-speedometer:before {
+    content: "\f4b0"
+}
+
+.flatos-ios-star-half:before {
+    content: "\f4b1"
+}
+
+.flatos-ios-star-outline:before {
+    content: "\f4b2"
+}
+
+.flatos-ios-star:before {
+    content: "\f4b3"
+}
+
+.flatos-ios-stopwatch-outline:before {
+    content: "\f4b4"
+}
+
+.flatos-ios-stopwatch:before {
+    content: "\f4b5"
+}
+
+.flatos-ios-sunny-outline:before {
+    content: "\f4b6"
+}
+
+.flatos-ios-sunny:before {
+    content: "\f4b7"
+}
+
+.flatos-ios-telephone-outline:before {
+    content: "\f4b8"
+}
+
+.flatos-ios-telephone:before {
+    content: "\f4b9"
+}
+
+.flatos-ios-tennisball-outline:before {
+    content: "\f4ba"
+}
+
+.flatos-ios-tennisball:before {
+    content: "\f4bb"
+}
+
+.flatos-ios-thunderstorm-outline:before {
+    content: "\f4bc"
+}
+
+.flatos-ios-thunderstorm:before {
+    content: "\f4bd"
+}
+
+.flatos-ios-time-outline:before {
+    content: "\f4be"
+}
+
+.flatos-ios-time:before {
+    content: "\f4bf"
+}
+
+.flatos-ios-timer-outline:before {
+    content: "\f4c0"
+}
+
+.flatos-ios-timer:before {
+    content: "\f4c1"
+}
+
+.flatos-ios-toggle-outline:before {
+    content: "\f4c2"
+}
+
+.flatos-ios-toggle:before {
+    content: "\f4c3"
+}
+
+.flatos-ios-trash-outline:before {
+    content: "\f4c4"
+}
+
+.flatos-ios-trash:before {
+    content: "\f4c5"
+}
+
+.flatos-ios-undo-outline:before {
+    content: "\f4c6"
+}
+
+.flatos-ios-undo:before {
+    content: "\f4c7"
+}
+
+.flatos-ios-unlocked-outline:before {
+    content: "\f4c8"
+}
+
+.flatos-ios-unlocked:before {
+    content: "\f4c9"
+}
+
+.flatos-ios-upload-outline:before {
+    content: "\f4ca"
+}
+
+.flatos-ios-upload:before {
+    content: "\f4cb"
+}
+
+.flatos-ios-videocam-outline:before {
+    content: "\f4cc"
+}
+
+.flatos-ios-videocam:before {
+    content: "\f4cd"
+}
+
+.flatos-ios-volume-high:before {
+    content: "\f4ce"
+}
+
+.flatos-ios-volume-low:before {
+    content: "\f4cf"
+}
+
+.flatos-ios-wineglass-outline:before {
+    content: "\f4d0"
+}
+
+.flatos-ios-wineglass:before {
+    content: "\f4d1"
+}
+
+.flatos-ios-world-outline:before {
+    content: "\f4d2"
+}
+
+.flatos-ios-world:before {
+    content: "\f4d3"
+}
+
+.flatos-ipad:before {
+    content: "\f1f9"
+}
+
+.flatos-iphone:before {
+    content: "\f1fa"
+}
+
+.flatos-ipod:before {
+    content: "\f1fb"
+}
+
+.flatos-jet:before {
+    content: "\f295"
+}
+
+.flatos-key:before {
+    content: "\f296"
+}
+
+.flatos-knife:before {
+    content: "\f297"
+}
+
+.flatos-laptop:before {
+    content: "\f1fc"
+}
+
+.flatos-leaf:before {
+    content: "\f1fd"
+}
+
+.flatos-levels:before {
+    content: "\f298"
+}
+
+.flatos-lightbulb:before {
+    content: "\f299"
+}
+
+.flatos-link:before {
+    content: "\f1fe"
+}
+
+.flatos-load-a:before {
+    content: "\f29a"
+}
+
+.flatos-load-b:before {
+    content: "\f29b"
+}
+
+.flatos-load-c:before {
+    content: "\f29c"
+}
+
+.flatos-load-d:before {
+    content: "\f29d"
+}
+
+.flatos-location:before {
+    content: "\f1ff"
+}
+
+.flatos-lock-combination:before {
+    content: "\f4d4"
+}
+
+.flatos-locked:before {
+    content: "\f200"
+}
+
+.flatos-log-in:before {
+    content: "\f29e"
+}
+
+.flatos-log-out:before {
+    content: "\f29f"
+}
+
+.flatos-loop:before {
+    content: "\f201"
+}
+
+.flatos-magnet:before {
+    content: "\f2a0"
+}
+
+.flatos-male:before {
+    content: "\f2a1"
+}
+
+.flatos-man:before {
+    content: "\f202"
+}
+
+.flatos-map:before {
+    content: "\f203"
+}
+
+.flatos-medkit:before {
+    content: "\f2a2"
+}
+
+.flatos-merge:before {
+    content: "\f33f"
+}
+
+.flatos-mic-a:before {
+    content: "\f204"
+}
+
+.flatos-mic-b:before {
+    content: "\f205"
+}
+
+.flatos-mic-c:before {
+    content: "\f206"
+}
+
+.flatos-minus-circled:before {
+    content: "\f207"
+}
+
+.flatos-minus-round:before {
+    content: "\f208"
+}
+
+.flatos-minus:before {
+    content: "\f209"
+}
+
+.flatos-model-s:before {
+    content: "\f2c1"
+}
+
+.flatos-monitor:before {
+    content: "\f20a"
+}
+
+.flatos-more:before {
+    content: "\f20b"
+}
+
+.flatos-mouse:before {
+    content: "\f340"
+}
+
+.flatos-music-note:before {
+    content: "\f20c"
+}
+
+.flatos-navicon-round:before {
+    content: "\f20d"
+}
+
+.flatos-navicon:before {
+    content: "\f20e"
+}
+
+.flatos-navigate:before {
+    content: "\f2a3"
+}
+
+.flatos-network:before {
+    content: "\f341"
+}
+
+.flatos-no-smoking:before {
+    content: "\f2c2"
+}
+
+.flatos-nuclear:before {
+    content: "\f2a4"
+}
+
+.flatos-outlet:before {
+    content: "\f342"
+}
+
+.flatos-paintbrush:before {
+    content: "\f4d5"
+}
+
+.flatos-paintbucket:before {
+    content: "\f4d6"
+}
+
+.flatos-paper-airplane:before {
+    content: "\f2c3"
+}
+
+.flatos-paperclip:before {
+    content: "\f20f"
+}
+
+.flatos-pause:before {
+    content: "\f210"
+}
+
+.flatos-person-add:before {
+    content: "\f211"
+}
+
+.flatos-person-stalker:before {
+    content: "\f212"
+}
+
+.flatos-person:before {
+    content: "\f213"
+}
+
+.flatos-pie-graph:before {
+    content: "\f2a5"
+}
+
+.flatos-pin:before {
+    content: "\f2a6"
+}
+
+.flatos-pinpoint:before {
+    content: "\f2a7"
+}
+
+.flatos-pizza:before {
+    content: "\f2a8"
+}
+
+.flatos-plane:before {
+    content: "\f214"
+}
+
+.flatos-planet:before {
+    content: "\f343"
+}
+
+.flatos-play:before {
+    content: "\f215"
+}
+
+.flatos-playstation:before {
+    content: "\f30a"
+}
+
+.flatos-plus-circled:before {
+    content: "\f216"
+}
+
+.flatos-plus-round:before {
+    content: "\f217"
+}
+
+.flatos-plus:before {
+    content: "\f218"
+}
+
+.flatos-podium:before {
+    content: "\f344"
+}
+
+.flatos-pound:before {
+    content: "\f219"
+}
+
+.flatos-power:before {
+    content: "\f2a9"
+}
+
+.flatos-pricetag:before {
+    content: "\f2aa"
+}
+
+.flatos-pricetags:before {
+    content: "\f2ab"
+}
+
+.flatos-printer:before {
+    content: "\f21a"
+}
+
+.flatos-pull-request:before {
+    content: "\f345"
+}
+
+.flatos-qr-scanner:before {
+    content: "\f346"
+}
+
+.flatos-quote:before {
+    content: "\f347"
+}
+
+.flatos-radio-waves:before {
+    content: "\f2ac"
+}
+
+.flatos-record:before {
+    content: "\f21b"
+}
+
+.flatos-refresh:before {
+    content: "\f21c"
+}
+
+.flatos-reply-all:before {
+    content: "\f21d"
+}
+
+.flatos-reply:before {
+    content: "\f21e"
+}
+
+.flatos-ribbon-a:before {
+    content: "\f348"
+}
+
+.flatos-ribbon-b:before {
+    content: "\f349"
+}
+
+.flatos-sad-outline:before {
+    content: "\f4d7"
+}
+
+.flatos-sad:before {
+    content: "\f34a"
+}
+
+.flatos-scissors:before {
+    content: "\f34b"
+}
+
+.flatos-search:before {
+    content: "\f21f"
+}
+
+.flatos-settings:before {
+    content: "\f2ad"
+}
+
+.flatos-share:before {
+    content: "\f220"
+}
+
+.flatos-shuffle:before {
+    content: "\f221"
+}
+
+.flatos-skip-backward:before {
+    content: "\f222"
+}
+
+.flatos-skip-forward:before {
+    content: "\f223"
+}
+
+.flatos-social-android-outline:before {
+    content: "\f224"
+}
+
+.flatos-social-android:before {
+    content: "\f225"
+}
+
+.flatos-social-angular-outline:before {
+    content: "\f4d8"
+}
+
+.flatos-social-angular:before {
+    content: "\f4d9"
+}
+
+.flatos-social-apple-outline:before {
+    content: "\f226"
+}
+
+.flatos-social-apple:before {
+    content: "\f227"
+}
+
+.flatos-social-bitcoin-outline:before {
+    content: "\f2ae"
+}
+
+.flatos-social-bitcoin:before {
+    content: "\f2af"
+}
+
+.flatos-social-buffer-outline:before {
+    content: "\f228"
+}
+
+.flatos-social-buffer:before {
+    content: "\f229"
+}
+
+.flatos-social-chrome-outline:before {
+    content: "\f4da"
+}
+
+.flatos-social-chrome:before {
+    content: "\f4db"
+}
+
+.flatos-social-codepen-outline:before {
+    content: "\f4dc"
+}
+
+.flatos-social-codepen:before {
+    content: "\f4dd"
+}
+
+.flatos-social-css3-outline:before {
+    content: "\f4de"
+}
+
+.flatos-social-css3:before {
+    content: "\f4df"
+}
+
+.flatos-social-designernews-outline:before {
+    content: "\f22a"
+}
+
+.flatos-social-designernews:before {
+    content: "\f22b"
+}
+
+.flatos-social-dribbble-outline:before {
+    content: "\f22c"
+}
+
+.flatos-social-dribbble:before {
+    content: "\f22d"
+}
+
+.flatos-social-dropbox-outline:before {
+    content: "\f22e"
+}
+
+.flatos-social-dropbox:before {
+    content: "\f22f"
+}
+
+.flatos-social-euro-outline:before {
+    content: "\f4e0"
+}
+
+.flatos-social-euro:before {
+    content: "\f4e1"
+}
+
+.flatos-social-facebook-outline:before {
+    content: "\f230"
+}
+
+.flatos-social-facebook:before {
+    content: "\f231"
+}
+
+.flatos-social-foursquare-outline:before {
+    content: "\f34c"
+}
+
+.flatos-social-foursquare:before {
+    content: "\f34d"
+}
+
+.flatos-social-freebsd-devil:before {
+    content: "\f2c4"
+}
+
+.flatos-social-github-outline:before {
+    content: "\f232"
+}
+
+.flatos-social-github:before {
+    content: "\f233"
+}
+
+.flatos-social-google-outline:before {
+    content: "\f34e"
+}
+
+.flatos-social-google:before {
+    content: "\f34f"
+}
+
+.flatos-social-googleplus-outline:before {
+    content: "\f234"
+}
+
+.flatos-social-googleplus:before {
+    content: "\f235"
+}
+
+.flatos-social-hackernews-outline:before {
+    content: "\f236"
+}
+
+.flatos-social-hackernews:before {
+    content: "\f237"
+}
+
+.flatos-social-html5-outline:before {
+    content: "\f4e2"
+}
+
+.flatos-social-html5:before {
+    content: "\f4e3"
+}
+
+.flatos-social-instagram-outline:before {
+    content: "\f350"
+}
+
+.flatos-social-instagram:before {
+    content: "\f351"
+}
+
+.flatos-social-javascript-outline:before {
+    content: "\f4e4"
+}
+
+.flatos-social-javascript:before {
+    content: "\f4e5"
+}
+
+.flatos-social-linkedin-outline:before {
+    content: "\f238"
+}
+
+.flatos-social-linkedin:before {
+    content: "\f239"
+}
+
+.flatos-social-markdown:before {
+    content: "\f4e6"
+}
+
+.flatos-social-nodejs:before {
+    content: "\f4e7"
+}
+
+.flatos-social-octocat:before {
+    content: "\f4e8"
+}
+
+.flatos-social-pinterest-outline:before {
+    content: "\f2b0"
+}
+
+.flatos-social-pinterest:before {
+    content: "\f2b1"
+}
+
+.flatos-social-python:before {
+    content: "\f4e9"
+}
+
+.flatos-social-reddit-outline:before {
+    content: "\f23a"
+}
+
+.flatos-social-reddit:before {
+    content: "\f23b"
+}
+
+.flatos-social-rss-outline:before {
+    content: "\f23c"
+}
+
+.flatos-social-rss:before {
+    content: "\f23d"
+}
+
+.flatos-social-sass:before {
+    content: "\f4ea"
+}
+
+.flatos-social-skype-outline:before {
+    content: "\f23e"
+}
+
+.flatos-social-skype:before {
+    content: "\f23f"
+}
+
+.flatos-social-snapchat-outline:before {
+    content: "\f4eb"
+}
+
+.flatos-social-snapchat:before {
+    content: "\f4ec"
+}
+
+.flatos-social-tumblr-outline:before {
+    content: "\f240"
+}
+
+.flatos-social-tumblr:before {
+    content: "\f241"
+}
+
+.flatos-social-tux:before {
+    content: "\f2c5"
+}
+
+.flatos-social-twitch-outline:before {
+    content: "\f4ed"
+}
+
+.flatos-social-twitch:before {
+    content: "\f4ee"
+}
+
+.flatos-social-twitter-outline:before {
+    content: "\f242"
+}
+
+.flatos-social-twitter:before {
+    content: "\f243"
+}
+
+.flatos-social-usd-outline:before {
+    content: "\f352"
+}
+
+.flatos-social-usd:before {
+    content: "\f353"
+}
+
+.flatos-social-vimeo-outline:before {
+    content: "\f244"
+}
+
+.flatos-social-vimeo:before {
+    content: "\f245"
+}
+
+.flatos-social-whatsapp-outline:before {
+    content: "\f4ef"
+}
+
+.flatos-social-whatsapp:before {
+    content: "\f4f0"
+}
+
+.flatos-social-windows-outline:before {
+    content: "\f246"
+}
+
+.flatos-social-windows:before {
+    content: "\f247"
+}
+
+.flatos-social-wordpress-outline:before {
+    content: "\f248"
+}
+
+.flatos-social-wordpress:before {
+    content: "\f249"
+}
+
+.flatos-social-yahoo-outline:before {
+    content: "\f24a"
+}
+
+.flatos-social-yahoo:before {
+    content: "\f24b"
+}
+
+.flatos-social-yen-outline:before {
+    content: "\f4f1"
+}
+
+.flatos-social-yen:before {
+    content: "\f4f2"
+}
+
+.flatos-social-youtube-outline:before {
+    content: "\f24c"
+}
+
+.flatos-social-youtube:before {
+    content: "\f24d"
+}
+
+.flatos-soup-can-outline:before {
+    content: "\f4f3"
+}
+
+.flatos-soup-can:before {
+    content: "\f4f4"
+}
+
+.flatos-speakerphone:before {
+    content: "\f2b2"
+}
+
+.flatos-speedometer:before {
+    content: "\f2b3"
+}
+
+.flatos-spoon:before {
+    content: "\f2b4"
+}
+
+.flatos-star:before {
+    content: "\f24e"
+}
+
+.flatos-stats-bars:before {
+    content: "\f2b5"
+}
+
+.flatos-steam:before {
+    content: "\f30b"
+}
+
+.flatos-stop:before {
+    content: "\f24f"
+}
+
+.flatos-thermometer:before {
+    content: "\f2b6"
+}
+
+.flatos-thumbsdown:before {
+    content: "\f250"
+}
+
+.flatos-thumbsup:before {
+    content: "\f251"
+}
+
+.flatos-toggle-filled:before {
+    content: "\f354"
+}
+
+.flatos-toggle:before {
+    content: "\f355"
+}
+
+.flatos-transgender:before {
+    content: "\f4f5"
+}
+
+.flatos-trash-a:before {
+    content: "\f252"
+}
+
+.flatos-trash-b:before {
+    content: "\f253"
+}
+
+.flatos-trophy:before {
+    content: "\f356"
+}
+
+.flatos-tshirt-outline:before {
+    content: "\f4f6"
+}
+
+.flatos-tshirt:before {
+    content: "\f4f7"
+}
+
+.flatos-umbrella:before {
+    content: "\f2b7"
+}
+
+.flatos-university:before {
+    content: "\f357"
+}
+
+.flatos-unlocked:before {
+    content: "\f254"
+}
+
+.flatos-upload:before {
+    content: "\f255"
+}
+
+.flatos-usb:before {
+    content: "\f2b8"
+}
+
+.flatos-videocamera:before {
+    content: "\f256"
+}
+
+.flatos-volume-high:before {
+    content: "\f257"
+}
+
+.flatos-volume-low:before {
+    content: "\f258"
+}
+
+.flatos-volume-medium:before {
+    content: "\f259"
+}
+
+.flatos-volume-mute:before {
+    content: "\f25a"
+}
+
+.flatos-wand:before {
+    content: "\f358"
+}
+
+.flatos-waterdrop:before {
+    content: "\f25b"
+}
+
+.flatos-wifi:before {
+    content: "\f25c"
+}
+
+.flatos-wineglass:before {
+    content: "\f2b9"
+}
+
+.flatos-woman:before {
+    content: "\f25d"
+}
+
+.flatos-wrench:before {
+    content: "\f2ba"
+}
+
+.flatos-xbox:before {
+    content: "\f30c"
+}

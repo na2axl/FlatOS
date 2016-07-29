@@ -1,0 +1,45 @@
+ul.icons li img {
+    opacity: 0.75;
+    transition: opacity ease-in-out 0.2s 0s;
+}
+
+ul.icons li img:hover,
+ul.icons li.selected img {
+    opacity: 1;
+}
+
+ul.icons li.selected span {
+    background-color: #262626;
+    color: #fff !important;
+}
+
+ul.icons.medium li {
+    float: left;
+    width: 96px;
+    height: 96px;
+    text-align: center;
+    margin: 8px;
+    display: inline-block;
+}
+
+ul.icons.medium li img {
+    width: 48px;
+    height: 48px;
+    display: inline-block;
+}
+
+ul.icons.medium li span {
+    padding: 4px;
+    margin: 4px 0;
+    color: #262626;
+    display: block;
+    word-wrap: break-word;
+    font-size: 12px;
+}
+
+ul.icons li span input {
+    width: 100%;
+    border: 0 none;
+    padding: 4px;
+    text-align: center;
+}

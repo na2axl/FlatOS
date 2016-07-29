@@ -1,0 +1,184 @@
+.darkroom-container {
+	position:relative;
+	text-align: center;
+}
+.darkroom-image-container {
+	top:0;
+	left:0;
+}
+.darkroom-image-container .canvas-container {
+    text-align: center;
+	width: 100%;
+    top: 40px;
+}
+.darkroom-toolbar {
+	display:block;
+	position: fixed;
+	left: 0;
+	right: 0;
+	background:#262626;
+	height:40px;
+	width:100%;
+	z-index:99;
+	white-space:nowrap;
+	padding:0 5px
+
+}
+.darkroom-button-group {
+	display:inline-block;
+	height: 40px;
+	margin:0;
+	padding:0
+}
+.darkroom-button-group:last-child {
+	border-right:none
+}
+.darkroom-button {
+	box-sizing:border-box;
+	background:transparent;
+	border:none;
+	outline:none;
+	padding:2px 0 0 0;
+	width:40px;
+	height:40px
+}
+.darkroom-button:hover {
+	cursor:pointer;
+	background:#555
+}
+.darkroom-button:active {
+	cursor:pointer;
+	background:#333
+}
+.darkroom-button:disabled .darkroom-icon {
+	fill:#666
+}
+.darkroom-button:disabled:hover {
+	cursor:default;
+	background:transparent
+}
+.darkroom-button.darkroom-button-active .darkroom-icon {
+	fill:#33b5e5
+}
+.darkroom-button.darkroom-button-hidden {
+	display:none
+}
+.darkroom-button.darkroom-button-success .darkroom-icon {
+	fill:#99cc00
+}
+.darkroom-button.darkroom-button-warning .darkroom-icon {
+	fill:#FFBB33
+}
+.darkroom-button.darkroom-button-danger .darkroom-icon {
+	fill:#FF4444
+}
+.darkroom-icon {
+	width:24px;
+	height:24px;
+	fill:#fff
+}
+
+.flatos_imageviewer .flatos_imageviewer_prev ,
+.flatos_imageviewer .flatos_imageviewer_next {
+    width: 5em;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	z-index: 2;
+}
+
+.flatos_imageviewer .flatos_imageviewer_prev span,
+.flatos_imageviewer .flatos_imageviewer_next span {
+    position: fixed;
+    top: 50%;
+    width: 5em;
+    height: 10em;
+    margin-top: -5em;
+    cursor: pointer;
+}
+
+.flatos_imageviewer .flatos_imageviewer_next span::before,
+.flatos_imageviewer .flatos_imageviewer_prev span::before {
+	content:'';
+	display:block;
+	width:5em;
+	height:5em;
+	background-color:rgba(37,33,33,0.5);
+	position:absolute;
+	top:50%;
+	margin-top:-2.5em;
+	-moz-transition:background-color 0.35s ease-in-out;
+	-webkit-transition:background-color 0.35s ease-in-out;
+	-o-transition:background-color 0.35s ease-in-out;
+	-ms-transition:background-color 0.35s ease-in-out;
+	transition:background-color 0.35s ease-in-out;
+	-webkit-backface-visibility:hidden
+}
+
+.flatos_imageviewer .flatos_imageviewer_next span::after,
+.flatos_imageviewer .flatos_imageviewer_prev span::after {
+	font-family:FontAwesome;
+	font-size:2.5em;
+	line-height:2.5em;
+	color:#fff;
+	text-align:center;
+	width:2.5em;
+	height:2.5em;
+	position:absolute;
+	top:50%;
+	margin:-1.25em 0px 0px
+}
+
+.flatos_imageviewer .flatos_imageviewer_next span:hover:before,
+.flatos_imageviewer .flatos_imageviewer_prev span:hover:before {
+	background-color:rgba(37,33,33,0.75)
+}
+
+.flatos_imageviewer .flatos_imageviewer_next span::before {
+	right:0;
+	border-radius:5px 0px 0px 5px
+}
+
+.flatos_imageviewer .flatos_imageviewer_next span::after {
+	content:"\f138";
+	right:-0.25em
+}
+
+.flatos_imageviewer .flatos_imageviewer_prev span::before {
+	left:0;
+	border-radius:0px 5px 5px 0px
+}
+
+.flatos_imageviewer .flatos_imageviewer_prev span::after {
+	content:"\f137";
+	left:-0.25em
+}
+
+.flatos_imageviewer .flatos_imageviewer_prev,
+.flatos_imageviewer .flatos_imageviewer_prev span {
+    left: 0;	
+}
+
+.flatos_imageviewer .flatos_imageviewer_next,
+.flatos_imageviewer .flatos_imageviewer_next span {
+    right: 0;	
+}
+
+.flatos_imageviewer .flatos_imageviewer_viewer {
+    background-color: #000;
+    width: calc(100% + 20px);
+    height: calc(100% + 20px);
+    overflow: auto;
+    cursor: default;
+    text-align: center;
+}
+
+.flatos_imageviewer .flatos_imageviewer_viewer img {
+    margin: auto;
+    vertical-align: middle;
+	z-index: 1;
+}
+
+.flatos_imageviewer .flatos_imageviewer_viewer.cursor-move {
+    cursor: move;
+}

@@ -1,0 +1,40 @@
+.alert .alert_window_header {
+    width: 100%;
+    float: left;
+    background-color: #FFF;
+    height: 100px;
+}
+
+.alert .alert_window_icon {
+    width: 100px;
+    float: left;
+    height: 100px;
+    padding: 10px;
+}
+
+.alert .alert_window_icon .alert_window_icon_img {
+    width: 80px;
+    height: 80px;
+}
+
+.alert .alert_window_message {
+    width: 396px;
+    float: left;
+    height: 100px;
+    padding: 16px;
+}
+
+.alert .alert_window_footer {
+    text-align: center;
+    float: left;
+    width: 100%;
+    height: 64px;
+    margin: 0;
+    padding: 16px 0;
+}
+
+.alert .alert_window_footer .button {
+    min-width: 100px;
+    float: left;
+    margin: 0 auto;
+}

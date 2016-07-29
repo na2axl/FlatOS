@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+<polygon fill="#4EEA60" points="34,5 10,5 10,59 55,59 55,26 34,26 "/>
+<g>
+	<line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="34" y1="8.75" x2="34" y2="32.75"/>
+	<polygon fill="none" stroke="#FFFFFF" stroke-miterlimit="10" points="50.2,24.75 50.2,32.75 14.8,32.75 14.8,8.75 34,8.75 
+		34,24.75 	"/>
+	<line fill="#FFFFFF" stroke="#FFFFFF" stroke-miterlimit="10" x1="14.8" y1="12.75" x2="34" y2="12.75"/>
+	<line fill="#FFFFFF" stroke="#FFFFFF" stroke-miterlimit="10" x1="14.8" y1="16.75" x2="34" y2="16.75"/>
+	<line fill="#FFFFFF" stroke="#FFFFFF" stroke-miterlimit="10" x1="14.8" y1="20.75" x2="34" y2="20.75"/>
+	<line fill="#FFFFFF" stroke="#FFFFFF" stroke-miterlimit="10" x1="14.8" y1="24.75" x2="34" y2="24.75"/>
+	<line fill="#FFFFFF" stroke="#FFFFFF" stroke-miterlimit="10" x1="14.8" y1="28.75" x2="50.2" y2="28.75"/>
+	<line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="19.8" y1="8.75" x2="19.8" y2="32.75"/>
+	<line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="26.8" y1="8.75" x2="26.8" y2="32.75"/>
+	<line fill="none" stroke="#FFFFFF" stroke-miterlimit="10" x1="42" y1="26.216" x2="42" y2="32.75"/>
+</g>
+<polygon fill="#37CC49" points="55,26 34,26 34,5 "/>
+<rect x="35.669" y="26" fill="#27AF34" width="19.331" height="1.216"/>
+<text transform="matrix(0.75 0 0 0.9 20.7822 45.875)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'Impact'" font-size="10">SPREED</tspan><tspan x="-1.935" y="11.111" fill="#FFFFFF" font-family="'Impact'" font-size="10">SHEETER</tspan></text>
+<text transform="matrix(0.76 0 0 1 17.1304 15.5)" fill="#FFFFFF" font-family="'BerlinSansFBDemi-Bold'" font-size="2">1</text>
+<text transform="matrix(0.76 0 0 1 16.9819 19.5)" fill="#FFFFFF" font-family="'BerlinSansFBDemi-Bold'" font-size="2">2</text>
+<text transform="matrix(0.76 0 0 1 17.0049 23.375)" fill="#FFFFFF" font-family="'BerlinSansFBDemi-Bold'" font-size="2">3</text>
+<text transform="matrix(0.76 0 0 1 16.9556 27.2158)" fill="#FFFFFF" font-family="'BerlinSansFBDemi-Bold'" font-size="2">4</text>
+<text transform="matrix(0.76 0 0 1 16.9912 31.375)" fill="#FFFFFF" font-family="'BerlinSansFBDemi-Bold'" font-size="2">5</text>
+<text transform="matrix(0.76 0 0 1 22.7227 11.5)" fill="#FFFFFF" font-family="'BerlinSansFBDemi-Bold'" font-size="2">A</text>
+<text transform="matrix(0.76 0 0 1 30.0142 11.5)" fill="#FFFFFF" font-family="'BerlinSansFBDemi-Bold'" font-size="2">B</text>
+</svg>

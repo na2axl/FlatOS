@@ -1,2 +1,2 @@
 # FlatOS
-An Operating System for Web (WebOS) in a cool Flat design!
+A Web based Operating System (WebOS) in a cool Flat design!

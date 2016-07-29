@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<appconfig>
+    <attribute name="app_name" value="Web NaviGO" />
+    <attribute name="app_desc" value="Web NaviGO, a simple and fast web browser for FlatOS" />
+    <attribute name="app_auth" value="Axel Nana" />
+    <attribute name="app_copy" value="(c) Centers Technologies. All rights reserved." />
+    <attribute name="process_id" value="flatos_browser" />
+    <attribute name="multi_instance" value="1" />
+    <attribute name="height" value="600" />
+    <attribute name="width" value="800" />
+    <attribute name="app_icon" value="{app_uri}/app.svg" />
+</appconfig>

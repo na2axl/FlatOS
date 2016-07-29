@@ -1,0 +1,434 @@
+html,body {
+    position: static;
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: 0;
+    height: 0;
+    font-family: 'Default';
+    font-size: 14px;
+}
+
+#desktop {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    z-index: 1;
+}
+
+#background {
+    position: fixed;
+    left: 0;
+    top: 0;
+    min-height: 100vh;
+    width: 100%;
+    z-index: 0;
+    background-color: #000;
+}
+
+#startscreen {
+    position: absolute;
+    top: 0;
+    left: 64px;
+    height: 100vh;
+    z-index: 99997;
+    background-color: rgba(0, 0, 0, 0.8);
+    overflow: auto;
+    padding: 32px;
+    right: 0;
+    color: #ffffff;
+    overflow: hidden;
+}
+
+#startscreen #startscreenTitle {
+    font-size: 5em;
+    margin-bottom: 48px;
+    color: #ffffff;
+}
+
+#startscreen .content {
+    height: 100%;
+    float: left;
+}
+
+#startscreen .searchbar {
+    padding: 0 16px;
+    margin-bottom: 32px;
+    width: 100%;
+    display: block;
+}
+
+#startscreen .searchbar input {
+    position: relative;
+    width: 100%;
+    padding: 10px 16px;
+    padding-right: 40px;
+    line-height: 1;
+    font-size: 1.25em;
+    border: 0 none;
+    color: #252525;
+}
+
+#startscreen .searchbar::before {
+    color: #333;
+    content: "\f21f";
+    display: inline-block;
+    font-family: FlatOSIcon;
+    font-size: 2em;
+    font-style: normal;
+    font-weight: normal;
+    position: absolute;
+    right: 26px;
+    text-decoration: none;
+    text-shadow: none;
+    top: 4px;
+    z-index: 1;
+}
+
+#startscreen .app-zone {
+    width: calc(100% - 271px);
+    height: 85%;
+    float: left;
+    overflow: hidden;
+}
+
+#startscreen .shortcuts-wrapper {
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: calc(100% + 20px);
+    height: 100%;
+    float: left;
+}
+
+#startscreen .shortcuts {
+    overflow: hidden;
+    padding: 0 16px;
+    width: 100%;
+    min-height: 100%;
+    float: left;
+}
+
+#startscreen .scroller {
+    width: 15px;
+    height: 85%;
+    background-color: rgba(0,0,0,0.8);
+    float: left;
+}
+
+#startscreen .scroller .view {
+    background-color: rgba(100, 100, 100, 0.8);
+    width: 15px;
+    display: block;
+    float: left;
+    position: absolute;
+    transition: background-color ease-in 0.3s 0s;
+}
+
+#startscreen .scroller .view:hover,
+#startscreen .scroller .view.scrolling {
+    background-color: rgba(150, 150, 150, 1);
+}
+
+#startscreen .user-zone {
+    padding: 0 16px;
+    width: 256px;
+    display: block;
+    float: left;
+}
+
+#startscreen .user-zone .user-zone-desc {
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid #ffffff;
+}
+
+#startscreen .user-zone .user-zone-desc .avatar,
+#startscreen .user-zone .user-zone-desc .avatar img {
+    width: 48px;
+    height: 48px;
+    display: block;
+    float: left;
+}
+
+#startscreen .user-zone .user-zone-desc .username {
+    height: 48px;
+    line-height: 48px;
+    color: #ffffff;
+    font-size: 1.25em;
+    margin-left: 16px;
+    font-weight: bold;
+}
+
+#startscreen .user-zone .user-zone-controls li {
+    padding: 8px 16px;
+}
+
+#startscreen .user-zone .user-zone-controls li::before {
+    font-family: "FlatOSIcon";
+    margin-right: 8px;
+}
+
+#startscreen .user-zone .user-zone-controls li.user-zone-controls-signout::before {
+    content: "\f2d7";
+}
+
+#startscreen .user-zone .user-zone-controls li.user-zone-controls-sleep::before {
+    content: "\f392";
+}
+
+#startscreen .user-zone .user-zone-controls li.user-zone-controls-restart::before {
+    content: "\f21c";
+}
+
+#startscreen .user-zone .user-zone-controls li.user-zone-controls-shutdown::before {
+    content: "\f2a9";
+}
+
+#startscreen .user-zone .user-zone-controls li:hover {
+    background-color: rgba(51, 51, 51, 0.5);
+}
+
+#clock {
+    width: 64px;
+    height: 64px;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    padding: 8px;
+    color: #ffffff;
+    line-height: 16px;
+    text-align: center;
+    font-weight: bold;
+    z-index: 99998;
+}
+
+#windows ul#desktop-icons {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    padding: 0 16px;
+    z-index: 1;
+}
+
+#windows ul#desktop-icons li span {
+    color: #fff !important;
+}
+
+#taskbar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    padding-bottom: 64px;
+    width: 64px;
+    height: 100vh;
+    z-index: 99998;
+    background-color: rgba(0, 0, 0, 0.8);
+    float: left;
+}
+
+#taskbar .taskbar-icons {
+    position: absolute;
+    top: 64px;
+    left: 0;
+    bottom: 0;
+    width: 84px;
+    overflow: auto;
+}
+
+#windows {
+    position: fixed;
+    left: 64px;
+    right: 0;
+    z-index: 1;
+    top: 0;
+    overflow: hidden;
+    bottom: 0;
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+#taskbar .loading {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #0066cc;
+    opacity: 0.5;
+}
+
+#startmenu {
+    background-color: rgba(204, 0, 0, 0.8);
+    color: #000;
+    margin: 0 0 2px 0 !important;
+    transition: color ease-in-out 0.5s 0s;
+}
+
+#startmenu:hover {
+    background-color: transparent;
+    color: #c00;
+}
+
+.taskicon {
+    width: 64px;
+    height: 64px;
+    padding: 8px;
+    float: left;
+    color: #fff;
+    cursor: default;
+    display: block;
+}
+
+.taskicon:hover,
+#taskbar .taskicon.current {
+    background-color: rgba(51, 51, 51, 0.5);
+}
+
+#taskbar .taskicon.hinted {
+    background-color: #c00;
+}
+
+#taskbar .taskicon.opened,
+#taskbar .taskicon.current {
+    border-left: 3px solid #fff;
+}
+
+#taskbar .taskicon {
+    margin: 2px 0;
+}
+
+.icon, .icon img {
+    width: 48px;
+    height: 48px;
+}
+
+.icon.fa-icon,
+.icon::before {
+    width: 32px;
+    height: 32px;
+    font-size: 48px;
+    margin: 0;
+}
+
+#startscreen .taskicon {
+    width: 176px;
+    height: 176px;
+    padding: 8px;
+    margin: 0;
+    text-align: center;
+}
+
+#startscreen .taskicon .icon,
+#startscreen .taskicon .icon img {
+    width: 128px;
+    height: 128px;
+    padding: 0;
+    margin: 0 auto;
+    display: block;
+}
+
+#startscreen .taskicon .title {
+    font-weight: bold;
+    text-align: center;
+}
+
+.button {
+    height: 32px;
+    line-height: 32px;
+    padding: 0 10px;
+    margin: 0;
+    font-weight: bold;
+    min-width: 100px;
+    text-align: center;
+    transition: background-color ease-in-out 0.3s 0s;
+    cursor: default;
+}
+
+.button.cancel {
+    background-color: #c00;
+    color: #fff;
+}
+
+.button.cancel:hover {
+    background-color: #FF3333;
+}
+
+.button.ok {
+    background-color: #fff;
+    color: #262626;
+}
+
+.button.ok:hover {
+    background-color: #DDDDDD;
+}
+
+ul.flatos-contextual-menu {
+    position: absolute;
+    min-width: 210px;
+    z-index: 99999;
+    background: #262626;
+    color: #ffffff;
+    padding: 0px;
+    margin: 0;
+    display: none;
+    border: 1px solid #ffffff;
+    -moz-box-shadow: 0 0 5px #262626;
+    -webkit-box-shadow: 0 0 5px #262626;
+    box-shadow: 0 0 5px #262626;
+    font-size: 12px;
+}
+
+ul.flatos-contextual-menu li:first-child {
+    margin-top: 2px;
+}
+
+ul.flatos-contextual-menu li:last-child {
+    margin-bottom: 2px;
+}
+
+ul.flatos-contextual-menu li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.flatos-contextual-menu li.separator {
+    border-bottom: 1px solid #fff;
+    margin: 2px 0;
+    height: 0;
+}
+
+ul.flatos-contextual-menu li a {
+    text-decoration: none;
+    display: block;
+    outline: none;
+    height: 24px;
+    line-height: 24px;
+    padding: 0 20px;
+}
+
+ul.flatos-contextual-menu li a:hover {
+    background-color: #cc0000;
+}
+
+ul.flatos-contextual-menu li.title a {
+    font-weight: bold;
+}
+
+ul.flatos-contextual-menu li img {
+    width: 24px;
+    height: 24px;
+    float: left;
+    margin-right: 5px;
+}
+
+ul.flatos-contextual-menu li.title a:hover {
+    background-color: transparent;
+}
+
+ul.flatos-contextual-menu li a:hover {
+    background-color: #cc0000;
+}

@@ -1,0 +1,10 @@
+{
+    "contextMenu": {
+        "flatos_codemaster": {
+            "edit": {
+                "name": "Edit Code",
+                "action": "edit_file"
+            }
+        }
+    }
+}

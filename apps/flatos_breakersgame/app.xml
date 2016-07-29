@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<appconfig>
+    <attribute name="app_name" value="Breakers" />
+    <attribute name="app_desc" value="A Breakout clone game" />
+    <attribute name="app_auth" value="Axel Nana" />
+    <attribute name="app_copy" value="(c) Centers Technologies. All rights reserved." />
+    <attribute name="process_id" value="flatos_breakersgame" />
+    <attribute name="multi_instance" value="0" />
+    <attribute name="height" value="396" />
+    <attribute name="width" value="645" />
+    <attribute name="window_controls" value="min,close" />
+    <attribute name="resizable" value="0" />
+    <attribute name="maximizable" value="0" />
+    <attribute name="app_icon" value="{app_uri}/app.svg" />
+</appconfig>

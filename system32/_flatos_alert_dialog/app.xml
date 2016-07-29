@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<appconfig>
+    <attribute name="app_name" value="Alert Dialog" />
+    <attribute name="app_desc" value="An alert dialog for FlatOS applications" />
+    <attribute name="app_auth" value="Axel Nana" />
+    <attribute name="app_copy" value="(c) Centers Technologies. All rights reserved." />
+    <attribute name="witdh" value="500" />
+    <attribute name="height" value="200" />
+    <attribute name="multi_instance" value="1" />
+    <attribute name="process_id" value="_flatos_alert_dialog" />
+</appconfig>

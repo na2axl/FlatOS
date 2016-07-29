@@ -1,0 +1,139 @@
+.flatos_explorer .flatos_file_explorer_shortcuts,
+.flatos_explorer .flatos_file_explorer_files_list,
+.flatos_explorer div.file_list_wait {
+    height: calc(100% - 64px);
+}
+
+.flatos_explorer .flatos_file_explorer_controls {
+    height: 64px;
+    padding: 16px;
+    color: #fff;
+    cursor: default;
+}
+
+.flatos_explorer .flatos_file_explorer_controls .flatos_file_explorer_control {
+    float: left;
+    padding: 6px;
+    height: 36px;
+    width: 36px;
+    margin: 0;
+    cursor: default;
+}
+
+.flatos_explorer .flatos_file_explorer_controls .flatos_file_explorer_control_folder ul.folders_list li {
+    border-bottom: 1px solid #999;
+}
+
+.flatos_explorer .flatos_file_explorer_controls .flatos_file_explorer_control:hover,
+.flatos_explorer .flatos_file_explorer_controls .flatos_file_explorer_control_folder ul.folders_list li:hover {
+    background-color: #161616;
+}
+
+.flatos_explorer .flatos_file_explorer_controls .flatos_file_explorer_control:active,
+.flatos_explorer .flatos_file_explorer_controls .flatos_file_explorer_control_folder ul.folders_list li:active {
+    background-color: #333333;
+}
+
+.flatos_explorer .flatos_file_explorer_controls .flatos_file_explorer_control_folder ul.folders_list li:last-child {
+    font-weight: bold;
+    border-bottom: 1px solid #fff;
+}
+
+.flatos_explorer .flatos_file_explorer_controls .flatos_file_explorer_control button {
+    width: 24px;
+    height: 24px;
+    background-color: transparent;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.flatos_explorer .flatos_file_explorer_controls .flatos_file_explorer_control button svg {
+    fill: #fff;
+    width: 24px;
+    height: 24px;
+}
+
+.flatos_explorer .flatos_file_explorer_controls .flatos_file_explorer_control_folder {
+    padding: 0 16px;
+    display: block;
+    float: left;
+    margin: 0 16px;
+}
+
+.flatos_explorer .flatos_file_explorer_controls .flatos_file_explorer_control_folder ul.folders_list li {
+    display: inline-block;
+    float: left;
+    padding: 8px;
+}
+
+.flatos_explorer .flatos_file_explorer_controls .flatos_file_explorer_control_folder ul.folders_list li.separator:hover {
+    background-color: transparent;
+}
+
+.flatos_explorer .flatos_file_explorer_shortcuts {
+    min-width: 150px;
+    background-color: #fff;
+    border-right: 1px solid #262626;
+    float: left;
+}
+
+.flatos_explorer .flatos_file_explorer_shortcuts img.flatos_file_icon {
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.flatos_explorer .flatos_file_explorer_files_list {
+    background-color: #fff;
+    border-left: 1px solid #262626;
+    position: static;
+    overflow-y: auto;
+}
+
+.flatos_explorer table.file_list_table {
+    border-collapse: separate;
+    max-height: 100%;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.flatos_explorer table.file_list_table,
+.flatos_explorer table.file_list_table > * {
+    width: 100%;
+}
+
+.flatos_explorer table.file_list_table td {
+    padding: 3px 10px;
+    border-right: 1px solid #ddd;
+    cursor: default;
+}
+
+.flatos_explorer table.file_list_table td:last-child {
+    border-right: 0px none;
+}
+
+.flatos_explorer table.file_list_table thead tr td {
+    border: 0 none;
+    background-color: #262626;
+    color: #fff;
+    font-weight: bold;
+    border-bottom: 1px solid #fff;
+}
+
+.flatos_explorer table.file_list_table tr.selected {
+    background-color: #262626;
+    color: #fff;
+}
+
+.flatos_explorer table.file_list_table tr.selected td {
+    border-color: transparent;
+}
+
+.flatos_explorer div.file_list_wait {
+    width: 100%;
+    cursor: wait;
+    line-height: 295px;
+    text-align: center;
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<appconfig>
+    <attribute name="app_name" value="File Selector" />
+    <attribute name="app_desc" value="File selector for FlatOS applications" />
+    <attribute name="app_auth" value="Axel Nana" />
+    <attribute name="app_copy" value="(c) Centers Technologies. All rights reserved." />
+    <attribute name="process_id" value="_flatos_file_selector_dialog" />
+    <attribute name="multi_instance" value="1" />
+    <attribute name="height" value="400" />
+    <attribute name="width" value="600" />
+    <attribute name="app_icon" value="" />
+</appconfig>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="512px" height="512px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+<g>
+	<g>
+		<polygon fill="#ECF0F1" points="410.419,424.861 63.44,349.548 120.187,88.12 467.162,163.442 		"/>
+		<polygon opacity="0.5" fill="#94B9FF" points="98.15,327.215 142.516,122.832 432.455,185.776 388.089,390.149 		"/>
+		<polyline fill="#8CB269" points="233.999,297.52 328.852,236.504 391.533,333.932 		"/>
+		<polyline fill="#A3D080" points="110.621,269.771 237.447,180 318.032,317.98 		"/>
+		
+			<rect x="100.966" y="300.983" transform="matrix(0.9772 0.2121 -0.2121 0.9772 75.7108 -45.3715)" fill="#A3D080" width="296.688" height="58.364"/>
+	</g>
+	<g>
+		<polygon opacity="0.5" fill="#A8ACAF" points="279.659,124.5 112.673,124.5 63.44,350.557 250.944,390.5 408,390.5 408,150.77 		
+			"/>
+		<rect x="44" y="114.5" fill="#ECF0F1" width="354" height="267"/>
+		<rect x="73" y="144.5" opacity="0.5" fill="#94B9FF" width="298" height="209"/>
+		<polyline fill="#8CB269" points="199.642,293.502 279.39,213.743 361.315,295.667 		"/>
+		<polyline fill="#A3D080" points="73.183,292.551 178.079,177.92 286.102,295.667 		"/>
+		<rect x="73" y="294.5" fill="#A3D080" width="298" height="59"/>
+	</g>
+</g>
+</svg>

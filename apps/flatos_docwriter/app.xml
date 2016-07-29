@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<appconfig>
+    <attribute name="app_name" value="Document Writer" />
+    <attribute name="app_desc" value="" />
+    <attribute name="app_auth" value="Axel Nana" />
+    <attribute name="app_copy" value="(c) Centers Technologies. All rights reserved." />
+    <attribute name="process_id" value="flatos_docwriter" />
+    <attribute name="multi_instance" value="0" />
+    <attribute name="height" value="600" />
+    <attribute name="width" value="800" />
+    <attribute name="min_height" value="600" />
+    <attribute name="min_width" value="800" />
+    <attribute name="app_icon" value="{app_uri}/icon.svg" />
+    <includes>
+        <file path="{app_uri}/editor/content-tools.js" />
+    </includes>
+</appconfig>

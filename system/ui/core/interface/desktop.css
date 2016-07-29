@@ -1,0 +1,61 @@
+html, body {
+    overflow: hidden;
+    cursor: default;
+}
+
+#boot-loader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: #fff;
+    z-index: 99999;
+    padding: 4px;
+}
+
+#interface-loader-wrapper {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    z-index: 99999;
+    background: url("./images/flatos_logo.png") #252121 no-repeat center;
+}
+
+#desktop-wrapper {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    z-index: 1;
+}
+
+#notification-wrapper {
+    position: absolute;
+    width: 384px;
+    right: 0;
+    bottom: 64px;
+    z-index: -1;
+    display: none;
+}
+
+#notification-wrapper.active {
+    z-index: 99999;
+    display: block;
+}
+
+#notification-wrapper .flatos-notification-message-wrapper {
+    display: block;
+    width: 384px;
+    height: 96px;
+    color: #ffffff;
+    background-color: #252121;
+    padding: 16px;
+    border-width: 2px 0 2px 2px;
+    border-style: solid;
+    border-color: #555555;
+    margin: 8px 0;
+}

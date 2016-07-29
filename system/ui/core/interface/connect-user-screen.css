@@ -1,0 +1,102 @@
+.flatos-hide-connect-screen {
+    display: none !important;
+}
+
+.flatos-connect-user-screen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 64px;
+    background: url("images/connect-screen-bg.png") repeat #252121 fixed;
+}
+
+.flatos-connect-user-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url("images/connect-screen-bg.png") repeat #252121 fixed;
+}
+
+#flatos-connect-user-chooser {
+    z-index: 99;
+}
+
+.flatos-connect-user-item {
+    padding: 32px;
+    -webkit-transition: background-color 0.3s ease 0s;
+    -moz-transition: background-color 0.3s ease 0s;
+    transition: background-color 0.3s ease 0s;
+}
+
+.flatos-connect-user-item:hover {
+    background-color: #363232;
+}
+
+.flatos-connect-user-display-name {
+    margin: 8px 0 0 0;
+    display: block;
+    font-size: 2em;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 200;
+}
+
+.flatos-connect-user-password-input {
+    padding: 8px 16px;
+    background-color: #ffffff;
+    border: 2px solid transparent;
+    font-size: 1.5em;
+    width: 100%;
+    margin: 32px 0 16px 0;
+    transition: border-color .5s ease 0s;
+    color: #252121;
+    outline: none;
+}
+
+.flatos-connect-user-password-input:focus {
+    border: 2px solid #555;
+}
+
+.flatos-connect-user-authenticate {
+    width: 100%;
+    padding: 8px 16px;
+    border: 2px solid #555;
+    background-color: #252121;
+    color: #ffffff;
+    font-weight: bold;
+    transition: background-color .5s ease 0s, color .5s ease 0s;
+    outline: none;
+}
+
+.flatos-connect-user-authenticate:hover,
+.flatos-connect-user-choose:hover {
+    background-color: #ffffff;
+    color: #252121;
+}
+
+.flatos-connect-user-choose {
+    width: 48px;
+    height: 48px;
+    border: 2px solid #555;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #252121;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    padding: 8px;
+    font-size: 24px;
+    z-index: 1;
+    transition: background-color .5s ease 0s, color .5s ease 0s;
+}
+
+.flatos-connect-user-choose::before {
+    font-family: FlatOSIcon;
+    content:"\f106";
+}

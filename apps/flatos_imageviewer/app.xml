@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<appconfig>
+    <attribute name="app_name" value="Image Viewer" />
+    <attribute name="app_desc" value="An image viewer and editor for FlatOS" />
+    <attribute name="app_auth" value="Axel Nana" />
+    <attribute name="app_copy" value="(c) Centers Technologies. All rights reserved." />
+    <attribute name="process_id" value="flatos_imageviewer" />
+    <attribute name="multi_instance" value="1" />
+    <attribute name="height" value="600" />
+    <attribute name="width" value="800" />
+    <attribute name="app_icon" value="{app_uri}/app.svg" />
+    <includes>
+        <file path="{app_uri}/editor/fabric.js" />
+        <file path="{app_uri}/editor/darkroom.js" />
+        <file path="{app_uri}/editor/darkroom.flip.js" />
+        <file path="{app_uri}/editor/darkroom.zoom.js" />
+    </includes>
+    <menu name="File" id="file" />
+        <menu name="Open" id="open" parent="file" />
+        <menu name="Save" id="save" parent="file" />
+        <menu name="Save as..." id="save_as" parent="file" />
+        <menu name="Quit" id="quit" parent="file" />
+    <menu name="Edit" id="edit" />
+        <menu name="Crop" id="crop" parent="edit" />
+        <menu name="Resize" id="resize" parent="edit" />
+        <menu name="Rotate" id="rotate" parent="edit" />
+        <menu name="Flip" id="flip" parent="edit" />
+    <menu name="View" id="view" />
+        <menu name="Zoom..." id="zoom" parent="view" />
+        <menu name="Zoom 1x" id="zoom_100" parent="view" />
+        <menu name="Zoom 1.5x" id="zoom_150" parent="view" />
+        <menu name="Zoom 2x" id="zoom_200" parent="view" />
+        <menu name="Fit Vertically" id="fit_v" parent="view" />
+        <menu name="Fit Horizontally" id="fit_h" parent="view" />
+    <menu name="Help" id="help" />
+        <menu name="About Image Viewer" id="about_app" parent="help" />
+</appconfig>

@@ -1,0 +1,2514 @@
+@font-face {font-family:'docwriter';src:url(fonts/tinymce.eot);src:url(fonts/tinymce.eot?#iefix) format('embedded-opentype'),url(fonts/tinymce.woff) format('woff'),url(fonts/tinymce.ttf) format('truetype'),url(fonts/tinymce.svg#tinymce) format('svg');font-weight:400;font-style:normal}
+
+.flatos_spreedsheeter {
+    border-color: #27AF34;
+}
+
+.flatos_spreedsheeter .titlebar,
+.flatos_spreedsheeter .flatos-locked-window-screen {
+    background-color: #37CC49 !important;
+}
+
+.flatos_spreedsheeter .docwriter_options_panel {
+    height: 148px;
+    width: 100%;
+    float: left;
+    overflow: hidden;
+}
+
+.flatos_spreedsheeter .docwriter_pages_wrapper {
+    height: calc(100% - 148px);
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    background-color: #bbf;
+}
+
+.flatos_spreedsheeter .docwriter_pages {
+    overflow: auto;
+    height: calc(100% - 32px);
+    width: 100%;
+}
+
+.flatos_spreedsheeter .docwriter_document_page {
+    background-color: #fff;
+    width: 210mm;
+    min-height: 297mm;
+    margin: 32px 0;
+    padding: 20mm;
+    float: left;
+}
+
+.flatos_spreedsheeter .docwriter_document_page_content {
+    width: 100%;
+    outline: 0 none;
+    cursor: text;
+    display: block;
+    border: 1px dashed rgba(205, 205, 205, 1);
+    float: left;
+    clear: both;
+}
+
+.flatos_spreedsheeter .docwriter_document_page_content .text-left {
+    text-align: left;
+}
+
+.flatos_spreedsheeter .docwriter_document_page_content .text-center {
+    text-align: center;
+}
+
+.flatos_spreedsheeter .docwriter_document_page_content .text-right {
+    text-align: right;
+}
+
+.flatos_spreedsheeter .docwriter_document_page_content .text-justify {
+    text-align: justify;
+}
+
+.flatos_spreedsheeter .docwriter_document_page_content b,
+.flatos_spreedsheeter .docwriter_document_page_content strong {
+    font-weight: bold;
+}
+
+.flatos_spreedsheeter .docwriter_document_page_content u {
+    text-decoration: underline;
+}
+
+.flatos_spreedsheeter .docwriter_document_page_content i,
+.flatos_spreedsheeter .docwriter_document_page_content em {
+    font-style: italic;
+}
+
+.flatos_spreedsheeter .docwriter_document_page_content blockquote {
+    border-left: #E4E4E4 solid 4px;
+    margin: 0px 30px;
+    padding: 0px 15px;
+    font-size: 110%;
+    font-style: italic;
+}
+
+.flatos_spreedsheeter .docwriter_document_page_content h1 {
+    font-size:2.5em;
+    font-weight:bold;
+}
+
+.flatos_spreedsheeter .docwriter_document_page_content h2 {
+    font-size:2em;
+    font-weight:normal;
+}
+
+.flatos_spreedsheeter .docwriter_document_page_content h3 {
+    margin: 16px 0px 8px 0px;
+    font-size:1.5em;
+    font-weight:bold;
+}
+
+.flatos_spreedsheeter .docwriter_document_page_content h4 {
+    margin: 16px 0px 8px 0px;
+    font-size:1em;
+    font-weight:bold;
+}
+
+.flatos_spreedsheeter .docwriter_document_page_content img {
+    border-style:none;
+    margin: 0px;
+    max-width: 100%;
+}
+
+.flatos_spreedsheeter .docwriter_document_page_content > :first-child {
+    margin-top: 0;
+}
+
+.flatos_spreedsheeter .docwriter_document_page_content p {
+    margin: 1em 0;
+    line-height: 1;
+}
+
+.flatos_spreedsheeter .docwriter_document_page_content > :last-child {
+    margin-bottom: 0;
+}
+
+.flatos_spreedsheeter .docwriter_document_page_content ul {
+    list-style-type: disc;
+    margin: 1em 0 1em 1.5em;
+}
+
+.flatos_spreedsheeter .docwriter_document_page_content ol {
+    list-style-type: decimal;
+    margin: 1em 0 1em 1.5em;;
+}
+
+.flatos_spreedsheeter .docwriter_document_page_content ul.list-style-type-disc {
+    list-style-type: disc;
+}
+
+.flatos_spreedsheeter .docwriter_document_page_content ul.list-style-type-circle {
+    list-style-type: circle;
+}
+
+.flatos_spreedsheeter .docwriter_document_page_content ul.list-style-type-square {
+    list-style-type: square;
+}
+
+.flatos_spreedsheeter .docwriter_document_page_content ol.list-style-type-decimal {
+    list-style-type: decimal;
+}
+
+.flatos_spreedsheeter .docwriter_document_page_content ol.list-style-type-decimal-leading-zero {
+    list-style-type: decimal-leading-zero;
+}
+
+.flatos_spreedsheeter .docwriter_document_page_content ol.list-style-type-lower-roman {
+    list-style-type: lower-roman;
+}
+
+.flatos_spreedsheeter .docwriter_document_page_content ol.list-style-type-upper-roman {
+    list-style-type: upper-roman;
+}
+
+.flatos_spreedsheeter .docwriter_document_page_content ol.list-style-type-lower-alpha {
+    list-style-type: lower-alpha;
+}
+
+.flatos_spreedsheeter .docwriter_document_page_content ol.list-style-type-upper-alpha {
+    list-style-type: upper-alpha;
+}
+
+.flatos_spreedsheeter .docwriter_document_page_content ol.list-style-type-none,
+.flatos_spreedsheeter .docwriter_document_page_content ul.list-style-type-none {
+    list-style-type: none;
+}
+
+.flatos_spreedsheeter .docwriter_document_page_content table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: 1em;
+    margin: 0 0 5px 0;
+}
+
+.flatos_spreedsheeter .docwriter_document_page_content table td,
+.flatos_spreedsheeter .docwriter_document_page_content table th {
+    padding: .4em;
+    border: 1px solid #000;
+}
+
+.flatos_spreedsheeter .docwriter_document_page_content td {
+    vertical-align: top;
+}
+
+.flatos_spreedsheeter .docwriter_document_page_content th,
+.flatos_spreedsheeter .docwriter_document_page_content tfoot td {
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+.flatos_spreedsheeter .docwriter_document_page_content td p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.flatos_spreedsheeter .docwriter_document_page_content th p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.flatos_spreedsheeter .panel-wrapper {
+    padding: 0;
+    background-color: #37CC49;
+}
+
+.flatos_spreedsheeter .panel-wrapper > nav {
+    padding: 0;
+    margin: 0;
+}
+
+.flatos_spreedsheeter .nav-panel {
+    border-bottom: 1px solid #DDD;
+    padding-left: 0px;
+    margin-bottom: 0px;
+    list-style: outside none none;
+}
+
+.flatos_spreedsheeter .nav-panel::before,
+.flatos_spreedsheeter .nav-panel::after {
+    display: table;
+    content: " ";
+}
+
+.flatos_spreedsheeter .nav-panel::after {
+    clear: both;
+}
+
+.flatos_spreedsheeter .nav-panel > li {
+    margin-bottom: -1px;
+    position: relative;
+    display: inline-block;
+}
+
+.flatos_spreedsheeter .nav-panel > li > a.active,
+.flatos_spreedsheeter .nav-panel > li > a.active:hover {
+    color: #262626;
+    cursor: default;
+    background-color: #FFF;
+    border-width: 1px;
+    border-bottom-width: 2px;
+    border-style: solid;
+    border-color: #DDD #DDD transparent;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -webkit-border-image: none;
+    -moz-border-image: none;
+    -o-border-image: none;
+    border-image: none;
+    outline: none;
+}
+
+.flatos_spreedsheeter .nav-panel > li.toolbox_ribbon {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.flatos_spreedsheeter .nav-panel > li.hide {
+    display: none;
+}
+
+.flatos_spreedsheeter .nav-panel > li > a {
+    margin: 0;
+    border: 1px solid transparent;
+    position: relative;
+    display: block;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.flatos_spreedsheeter .panel-wrapper .panels {
+    padding: 8px;
+    background-color: #FFF;
+    height: calc(100% - 28px);
+    display: block;
+    overflow-x: auto;
+    overflow-y: hidden;
+    width: 100% !important;
+}
+
+.flatos_spreedsheeter .panel-wrapper .panel {
+    padding: 0;
+    float: left;
+}
+
+.flatos_spreedsheeter .panel-wrapper .panel .command_group {
+    float: left;
+    height: 84px;
+    padding: 0 10px;
+    border-right: 1px solid #aaa;
+    display: block;
+}
+
+.flatos_spreedsheeter .panel-wrapper .panel .command_group:last-child {
+    border-right: 0 none;
+}
+
+.flatos_spreedsheeter .panel-wrapper .panel .icon_with_dropdown {
+    float: left;
+    height: 32px;
+    width: 48px;
+}
+
+.flatos_spreedsheeter .panel-wrapper .panel .icon_with_dropdown:hover button {
+    width: 31px;
+    height: 30px;
+}
+
+.flatos_spreedsheeter .panel-wrapper .panel .icon_with_dropdown:hover button.dropdown {
+    width: 15px;
+}
+
+.flatos_spreedsheeter .panel-wrapper .panel .icon_with_dropdown:hover {
+    border: 1px solid #aaa;
+}
+
+.flatos_spreedsheeter .panel-wrapper .panel .icon_with_dropdown:hover button {
+    border: 0 none;
+}
+
+.flatos_spreedsheeter .icon_group {
+    margin: 5px 0;
+    float: left;
+}
+
+.flatos_spreedsheeter .icon_group.float-right {
+    float: right;
+}
+
+.flatos_spreedsheeter .icon_group.clear-right {
+    clear: right;
+}
+
+.flatos_spreedsheeter .icon_group.clear-left {
+    clear: left;
+}
+
+.flatos_spreedsheeter .icon_group.clear-both {
+    clear: both;
+}
+
+.flatos_spreedsheeter .icon_group.middle-height {
+    height: 32px;
+}
+
+.flatos_spreedsheeter .icon_group.full-height {
+    height: 74px;
+}
+
+.flatos_spreedsheeter .icon_group.full-height button {
+    height: 74px;
+    width: 74px;
+}
+
+.flatos_spreedsheeter .select_zone {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    padding: 0 0 0 5px;
+    font-size: 12px;
+    background-color: #fff;
+    border: 1px solid #aaa;
+    height: 24px;
+    min-width: 64px;
+    float: left;
+    margin: 4px 5px 4px 0;
+}
+
+.flatos_spreedsheeter button::before {
+    color: #262626;
+}
+
+.flatos_spreedsheeter button.dropdown {
+    width: 16px;
+    font-size: 8px;
+}
+
+.flatos_spreedsheeter button {
+    padding: 0px;
+    background: transparent none repeat scroll 0% 0%;
+    border: 0px none;
+    width: 32px;
+    height: 32px;
+    float: left;
+    font-size: 16px;
+}
+
+.flatos_spreedsheeter button:hover,
+.flatos_spreedsheeter button.applied {
+    background-color: #ccc;
+    border: 1px solid #aaa;
+}
+
+.flatos_spreedsheeter button.full-height {
+    height: 84px;
+    width: 64px;
+    font-size: 48px;
+}
+
+.flatos_spreedsheeter .icon_group.full-height svg {
+    height: 48px;
+    width: 48px;
+}
+
+.flatos_spreedsheeter .docwriter_dropdown {
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #aaa;
+    padding: 10px;
+}
+
+.flatos_spreedsheeter .docwriter_dropdown .icon_group {
+    margin: 0;
+}
+
+.flatos_spreedsheeter .icon_with_dropdown .dropdown::before {
+    font-family: 'FlatOSIcon';
+    content: '\f104';
+}
+
+.flatos_spreedsheeter .action-bold::before {
+    font-family: 'docwriter';
+    content: '\e02a';
+}
+
+.flatos_spreedsheeter .action-italic::before {
+    font-family: 'docwriter';
+    content: '\e02b';
+}
+
+.flatos_spreedsheeter .action-underline::before {
+    font-family: 'docwriter';
+    content: '\e02c';
+}
+
+.flatos_spreedsheeter .action-strike::before {
+    font-family: 'docwriter';
+    content: '\e02d';
+}
+
+.flatos_spreedsheeter .action-superscript::before {
+    font-family: 'docwriter';
+    content: '\e01f';
+}
+
+.flatos_spreedsheeter .action-subscript::before {
+    font-family: 'docwriter';
+    content: '\e01e';
+}
+
+.flatos_spreedsheeter .action-unformat::before {
+    font-family: 'docwriter';
+    content: '\e01d';
+}
+
+.flatos_spreedsheeter .action-indent::before {
+    font-family: 'docwriter';
+    content: '\e00c';
+}
+
+.flatos_spreedsheeter .action-unindent::before {
+    font-family: 'docwriter';
+    content: '\e00d';
+}
+
+.flatos_spreedsheeter .action-align-left::before {
+    font-family: 'docwriter';
+    content: '\e003';
+}
+
+.flatos_spreedsheeter .action-align-right::before {
+    font-family: 'docwriter';
+    content: '\e005';
+}
+
+.flatos_spreedsheeter .action-align-center::before {
+    font-family: 'docwriter';
+    content: '\e004';
+}
+
+.flatos_spreedsheeter .action-align-justify::before {
+    font-family: 'docwriter';
+    content: '\e006';
+}
+
+.flatos_spreedsheeter .icon_with_dropdown .action-unordered-list::before {
+    font-family: 'docwriter';
+    content: '\e00a';
+}
+
+.flatos_spreedsheeter .icon_with_dropdown .action-ordered-list::before {
+    font-family: 'docwriter';
+    content: '\e00b';
+}
+
+.flatos_spreedsheeter .action-save::before {
+    font-family: 'docwriter';
+    content: '\e000';
+}
+
+.flatos_spreedsheeter .action-size_up::before {
+    font-family: 'FlatOSIcon';
+    content: '\f10e';
+}
+
+.flatos_spreedsheeter .action-size_down::before {
+    font-family: 'FlatOSIcon';
+    content: '\f105';
+}
+
+.flatos_spreedsheeter .action-insert_image::before {
+    font-family: 'docwriter';
+    content: '\e014';
+    height: 84px;
+    width: 64px;
+    font-size: 48px;
+}
+
+.flatos_spreedsheeter .action-insert_table:before {
+    font-family: 'docwriter';
+    content: "\e01b";
+    height: 84px;
+    width: 64px;
+    font-size: 48px;
+}
+
+.flatos_spreedsheeter .action-page_break::before {
+    font-family: 'docwriter';
+    content: '\e001';
+}
+
+.flatos_spreedsheeter .action-heading::before {
+    content: "H";
+    font-weight: bold;
+    font-size: 2.5em;
+}
+
+.flatos_spreedsheeter .action-subheading::before {
+    content: "H";
+    font-size: 2em;
+}
+
+.flatos_spreedsheeter .action-paragraph::before {
+    content: "P"
+}
+
+.flatos_spreedsheeter .action-preformatted::before {
+    font-family: 'icon';
+    content: "\ea80"
+}
+
+.flatos_spreedsheeter .action-blockquote::before {
+    font-family: 'docwriter';
+    content: "\e00e"
+}
+
+.flatos_spreedsheeter .action-insert_video:before {
+    font-family: 'docwriter';
+    content: "\e015";
+    height: 84px;
+    width: 64px;
+    font-size: 48px;
+}
+
+.flatos_spreedsheeter .action-undo::before {
+    font-family: 'docwriter';
+    content: "\e00f";
+}
+
+.flatos_spreedsheeter .action-redo::before {
+    font-family: 'docwriter';
+    content: "\e010";
+}
+
+.flatos_spreedsheeter .action-insert_line-break::before {
+    font-family: 'icon';
+    content: "\ea6e";
+    height: 84px;
+    width: 64px;
+    font-size: 48px;
+}
+
+
+/*! ContentTools v1.2.9 by Anthony Blackshaw <ant@getme.co.uk> (https://github.com/anthonyjb) */
+
+.flatos_spreedsheeter .flatos_spreedsheeter .ce--dragging,
+.flatos_spreedsheeter .flatos_spreedsheeter .ce--resizing {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.flatos_spreedsheeter .ce--dragging {
+    cursor: move!important
+}
+
+.flatos_spreedsheeter .ce--resizing {
+    cursor: nwse-resize!important
+}
+
+.flatos_spreedsheeter .ce-element--type-image,
+.flatos_spreedsheeter .ce-element--type-video {
+    background-repeat: no-repeat;
+    position: relative;
+    cursor: pointer;
+    z-index: 1
+}
+
+.flatos_spreedsheeter .ce-element--type-image:after,
+.flatos_spreedsheeter .ce-element--type-image:before,
+.flatos_spreedsheeter .ce-element--type-video:after,
+.flatos_spreedsheeter .ce-element--type-video:before {
+    background: rgba(0, 0, 0, .5);
+    border-radius: 2px;
+    color: #fff;
+    display: none;
+    font-family: arial, sans-serif;
+    font-size: 10px;
+    line-height: 10px;
+    padding: 4px 4px 3px;
+    position: absolute
+}
+
+.flatos_spreedsheeter .ce-element--type-image:before,
+.flatos_spreedsheeter .ce-element--type-video:before {
+    content: attr(data-ce-size);
+    right: 10px;
+    top: 10px
+}
+
+.flatos_spreedsheeter .ce-element--type-image.ce-element--over:before,
+.flatos_spreedsheeter .ce-element--type-image.ce-element--resizing:before,
+.flatos_spreedsheeter .ce-element--type-video.ce-element--over:before,
+.flatos_spreedsheeter .ce-element--type-video.ce-element--resizing:before {
+    display: block
+}
+
+.flatos_spreedsheeter .ce-element--type-image {
+    background-position: 0 0;
+    background-size: cover
+}
+
+.flatos_spreedsheeter .ce-element--type-image:after {
+    background: transparent;
+    content: '';
+    display: block;
+    left: 0;
+    position: relative;
+    top: 0;
+    height: 100%;
+    width: 100%
+}
+
+.flatos_spreedsheeter .ce-element--type-video {
+    background: #333 url(images/video.svg) 50%/auto 48px no-repeat
+}
+
+.flatos_spreedsheeter .ce-element--type-video:after {
+    bottom: 10px;
+    content: attr(data-ce-title);
+    display: block;
+    left: 10px
+}
+
+.flatos_spreedsheeter .ce-element--empty:after {
+    content: '...';
+    display: inline-block;
+    font-style: italic;
+    opacity: .5
+}
+
+.flatos_spreedsheeter .ce-element--empty[data-ce-placeholder]:after {
+    content: attr(data-ce-placeholder)
+}
+
+.flatos_spreedsheeter .ce-element--dragging {
+    background-color: rgba(51, 51, 51, .1)!important;
+    opacity: .5;
+    z-index: -1
+}
+
+.flatos_spreedsheeter .ce-element--dragging.ce-element--type-image,
+.flatos_spreedsheeter .ce-element--dragging.ce-element--type-video {
+    background-color: #333!important;
+    opacity: 1;
+    outline-color: rgba(51, 51, 51, .1)!important
+}
+
+.flatos_spreedsheeter .ce-element--drop {
+    position: relative!important
+}
+
+.flatos_spreedsheeter .ce-element--drop:before {
+    background: #f39c12 url(images/drop-vert-above.svg) 50%/auto 32px repeat;
+    bottom: 0;
+    content: ''!important;
+    left: 0;
+    opacity: .8;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 9
+}
+
+.flatos_spreedsheeter .ce-element--drop-below:before {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg)
+}
+
+.flatos_spreedsheeter .ce-element--drop-left:before {
+    background-image: url(images/drop-horz.svg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg)
+}
+
+.flatos_spreedsheeter .ce-element--drop-right:before {
+    background-image: url(images/drop-horz.svg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg)
+}
+
+.flatos_spreedsheeter .ce-element--drop.ce-element--type-table-row {
+    background: #f39c12 url(images/drop-vert-above.svg) 50%/auto 32px repeat
+}
+
+.flatos_spreedsheeter .ce-element--drop.ce-element--type-table-row:before {
+    display: none
+}
+
+.flatos_spreedsheeter .ce-element--drop.ce-element--type-table-row.ce-element--drop-below {
+    background: #f39c12 url(images/drop-vert-below.svg) 50%/auto 32px repeat
+}
+
+.flatos_spreedsheeter .ce-element--focused,
+.flatos_spreedsheeter .ce-element--over {
+    outline: none
+}
+
+.flatos_spreedsheeter .ce-element--focused.ce-element--type-image,
+.flatos_spreedsheeter .ce-element--focused.ce-element--type-video,
+.flatos_spreedsheeter .ce-element--over.ce-element--type-image,
+.flatos_spreedsheeter .ce-element--over.ce-element--type-video {
+    background-color: #333;
+    outline: 4px solid rgba(243, 156, 18, .35);
+    max-width: 100%;
+}
+
+.flatos_spreedsheeter .ce-element--resize-top-left {
+    cursor: nw-resize
+}
+
+.flatos_spreedsheeter .ce-element--resize-top-right {
+    cursor: ne-resize
+}
+
+.flatos_spreedsheeter .ce-element--resize-bottom-right {
+    cursor: se-resize
+}
+
+.flatos_spreedsheeter .ce-element--resize-bottom-left {
+    cursor: sw-resize
+}
+
+.flatos_spreedsheeter .ce-drag-helper {
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, .25);
+    color: #4e4e4e;
+    font: arial, sans-serif;
+    font-size: 12px;
+    height: 120px;
+    left: 0;
+    line-height: 135%;
+    margin: 5px 0 0 5px;
+    overflow: hidden;
+    padding: 15px;
+    position: absolute;
+    top: 0;
+    width: 120px;
+    word-wrap: break-word;
+    z-index: 9
+}
+
+.flatos_spreedsheeter .ce-drag-helper:before {
+    background: #B28A26;
+    color: #fff;
+    content: attr(data-ce-type);
+    display: block;
+    font-family: arial, sans-serif;
+    font-size: 10px;
+    line-height: 10px;
+    padding: 4px 4px 3px;
+    position: absolute;
+    right: 0;
+    top: 0
+}
+
+.flatos_spreedsheeter .ce-drag-helper--type-list-item-text:after,
+.flatos_spreedsheeter .ce-drag-helper--type-list:after,
+.flatos_spreedsheeter .ce-drag-helper--type-pre-text:after,
+.flatos_spreedsheeter .ce-drag-helper--type-table-row:after,
+.flatos_spreedsheeter .ce-drag-helper--type-table:after,
+.flatos_spreedsheeter .ce-drag-helper--type-text:after {
+    background-image: linear-gradient(hsla(0, 0%, 100%, 0), #fff 66%);
+    bottom: 0;
+    content: '';
+    display: block;
+    height: 40px;
+    left: 0;
+    position: absolute;
+    width: 100%
+}
+
+.flatos_spreedsheeter .ce-drag-helper--type-image {
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.flatos_spreedsheeter .ce-element--type-image,
+.flatos_spreedsheeter .ce-element--type-video {
+    display: block;
+    margin: 10px auto;
+}
+
+.flatos_spreedsheeter .ce-element--type-image.align-left,
+.flatos_spreedsheeter .ce-element--type-video.align-left {
+    clear: none;
+    float: left;
+    margin: 0 10px 10px 0;
+}
+
+.flatos_spreedsheeter .ce-element--type-image.align-right,
+.flatos_spreedsheeter .ce-element--type-video.align-right {
+    clear: none;
+    float: right;
+    margin: 0 0 10px 10px;
+}
+
+.flatos_spreedsheeter .ce-measure {
+    display: block!important
+}
+
+@font-face {
+    font-family: icon;
+    src: url(fonts/icons.woff);
+    font-weight: 400;
+    font-style: normal
+}
+
+.flatos_spreedsheeter .ct-widget,
+.flatos_spreedsheeter .ct-widget * {
+    box-sizing: border-box
+}
+
+.flatos_spreedsheeter .ct-widget * a,
+.flatos_spreedsheeter .ct-widget * b,
+.flatos_spreedsheeter .ct-widget * caption,
+.flatos_spreedsheeter .ct-widget * div,
+.flatos_spreedsheeter .ct-widget * form,
+.flatos_spreedsheeter .ct-widget * i fieldset,
+.flatos_spreedsheeter .ct-widget * iframe,
+.flatos_spreedsheeter .ct-widget * label,
+.flatos_spreedsheeter .ct-widget * legend,
+.flatos_spreedsheeter .ct-widget * span,
+.flatos_spreedsheeter .ct-widget * table,
+.flatos_spreedsheeter .ct-widget * tbody,
+.flatos_spreedsheeter .ct-widget * td,
+.flatos_spreedsheeter .ct-widget * tfoot,
+.flatos_spreedsheeter .ct-widget * th,
+.flatos_spreedsheeter .ct-widget * thead,
+.flatos_spreedsheeter .ct-widget * tr,
+.flatos_spreedsheeter .ct-widget a,
+.flatos_spreedsheeter .ct-widget b,
+.flatos_spreedsheeter .ct-widget caption,
+.flatos_spreedsheeter .ct-widget div,
+.flatos_spreedsheeter .ct-widget form,
+.flatos_spreedsheeter .ct-widget i fieldset,
+.flatos_spreedsheeter .ct-widget iframe,
+.flatos_spreedsheeter .ct-widget label,
+.flatos_spreedsheeter .ct-widget legend,
+.flatos_spreedsheeter .ct-widget span,
+.flatos_spreedsheeter .ct-widget table,
+.flatos_spreedsheeter .ct-widget tbody,
+.flatos_spreedsheeter .ct-widget td,
+.flatos_spreedsheeter .ct-widget tfoot,
+.flatos_spreedsheeter .ct-widget th,
+.flatos_spreedsheeter .ct-widget thead,
+.flatos_spreedsheeter .ct-widget tr {
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline
+}
+
+.flatos_spreedsheeter .ct-widget * table,
+.flatos_spreedsheeter .ct-widget table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+.flatos_spreedsheeter .ct-widget {
+    opacity: 0;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    z-index: 9999
+}
+
+.flatos_spreedsheeter .ct-widget,
+.flatos_spreedsheeter .ct-widget--active {
+    -webkit-transition-property: opacity;
+    transition-property: opacity;
+    -webkit-transition-duration: .25s;
+    transition-duration: .25s;
+    -webkit-transition-timing-function: ease-in;
+    transition-timing-function: ease-in
+}
+
+.flatos_spreedsheeter .ct-widget--active {
+    opacity: 1
+}
+
+.flatos_spreedsheeter .ct-widget .ct-attribute {
+    border-bottom: 1px solid #eee;
+    height: 48px;
+    vertical-align: top
+}
+
+.flatos_spreedsheeter .ct-widget .ct-attribute:after {
+    clear: both;
+    content: "";
+    display: table
+}
+
+.flatos_spreedsheeter .ct-widget .ct-attribute__name {
+    background: #f6f6f6;
+    border: none;
+    color: #646464;
+    float: left;
+    height: 47px;
+    outline: none;
+    padding: 0 16px;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    line-height: 48px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    width: 25%
+}
+
+.flatos_spreedsheeter .ct-widget .ct-attribute__name--invalid {
+    color: #e74c3c
+}
+
+.flatos_spreedsheeter .ct-widget .ct-attribute__value {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: #fff;
+    border: none;
+    color: #646464;
+    float: right;
+    height: 47px;
+    outline: none;
+    padding: 0 16px;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    line-height: 48px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    width: 75%
+}
+
+.flatos_spreedsheeter .ct-widget .ct-crop-marks {
+    height: 320px;
+    left: 73px;
+    position: absolute;
+    top: 0;
+    width: 427px
+}
+
+.flatos_spreedsheeter .ct-widget .ct-crop-marks__clipper {
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    width: 100%
+}
+
+.flatos_spreedsheeter .ct-widget .ct-crop-marks__ruler--top-left {
+    position: absolute
+}
+
+.flatos_spreedsheeter .ct-widget .ct-crop-marks__ruler--top-left:after {
+    border: 1px solid hsla(0, 0%, 100%, .5);
+    border-bottom: none;
+    border-right: none;
+    box-shadow: -1px -1px 1px rgba(0, 0, 0, .25), inset 1px 1px 1px rgba(0, 0, 0, .25);
+    content: '';
+    height: 999px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 999px
+}
+
+.flatos_spreedsheeter .ct-widget .ct-crop-marks__ruler--bottom-right {
+    position: absolute
+}
+
+.flatos_spreedsheeter .ct-widget .ct-crop-marks__ruler--bottom-right:after {
+    border: 1px solid hsla(0, 0%, 100%, .5);
+    border-top: none;
+    border-left: none;
+    bottom: 0;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, .25), inset -1px -1px 1px rgba(0, 0, 0, .25);
+    content: '';
+    height: 999px;
+    position: absolute;
+    right: 0;
+    width: 999px
+}
+
+.flatos_spreedsheeter .ct-widget .ct-crop-marks__handle {
+    background: #B28A26;
+    border: 1px solid #EEC64A;
+    border-radius: 7px;
+    cursor: pointer;
+    height: 15px;
+    margin-left: -7px;
+    margin-top: -7px;
+    position: absolute;
+    width: 15px
+}
+
+.flatos_spreedsheeter .ct-widget .ct-crop-marks__handle--bottom-right {
+    margin-left: -8px;
+    margin-top: -8px
+}
+
+.flatos_spreedsheeter .ct-widget .ct-crop-marks__handle:hover {
+    background: #CEA636
+}
+
+@-webkit-keyframes a {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg);
+        -webkit-transform: transform
+    }
+    to {
+        transform: translate(-50%, -50%) rotate(359deg);
+        -webkit-transform: transform
+    }
+}
+
+@keyframes a {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg);
+        -webkit-transform: transform;
+        transform: transform
+    }
+    to {
+        transform: translate(-50%, -50%) rotate(359deg);
+        -webkit-transform: transform;
+        transform: transform
+    }
+}
+
+.flatos_spreedsheeter .ct-widget.ct-dialog {
+    background: #fff;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, .35);
+    height: 480px;
+    left: 50%;
+    margin-left: -350px;
+    margin-top: -240px;
+    position: fixed;
+    top: 50%;
+    width: 700px;
+    z-index: 10099
+}
+
+.flatos_spreedsheeter .ct-widget.ct-dialog--busy .ct-dialog__busy {
+    display: block
+}
+
+.flatos_spreedsheeter .ct-widget.ct-dialog--busy .ct-dialog__body {
+    opacity: .1
+}
+
+.flatos_spreedsheeter .ct-widget .ct-dialog__header {
+    color: #fff;
+    border-bottom: 1px solid #eee;
+    height: 48px;
+    padding: 0 16px;
+    position: relative;
+    background-color: #B28A26
+}
+
+.flatos_spreedsheeter .ct-widget .ct-dialog__caption {
+    font-family: arial, sans-serif;
+    font-size: 18px
+}
+
+.flatos_spreedsheeter .ct-widget .ct-dialog__caption,
+.flatos_spreedsheeter .ct-widget .ct-dialog__close {
+    line-height: 48px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.flatos_spreedsheeter .ct-widget .ct-dialog__close {
+    border-left: 1px solid #eee;
+    cursor: pointer;
+    height: 48px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    font-family: icon;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    speak: none;
+    text-transform: none;
+    width: 48px
+}
+
+.flatos_spreedsheeter .ct-widget .ct-dialog__close:before {
+    content: '\ea0f'
+}
+
+.flatos_spreedsheeter .ct-widget .ct-dialog__close:hover {
+    background-color: #c00;
+}
+
+.flatos_spreedsheeter .ct-widget .ct-dialog__body {
+    margin: auto;
+    width: 572px
+}
+
+.flatos_spreedsheeter .ct-widget .ct-dialog__view {
+    height: 320px;
+    margin-top: 32px
+}
+
+.flatos_spreedsheeter .ct-widget .ct-dialog__controls {
+    margin-top: 16px
+}
+
+.flatos_spreedsheeter .ct-widget .ct-dialog__controls:after {
+    clear: both;
+    content: "";
+    display: table
+}
+
+.flatos_spreedsheeter .ct-widget .ct-dialog__busy {
+    display: none;
+    position: absolute
+}
+
+.flatos_spreedsheeter .ct-widget .ct-dialog__busy:before {
+    -webkit-animation: a 5s linear;
+    animation: a 5s linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    color: #a4a4a4;
+    content: "\e994";
+    left: 50%;
+    position: fixed;
+    top: 50%;
+    font-family: icon;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    speak: none;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.flatos_spreedsheeter .ct-widget .ct-control-group {
+    font-size: 0
+}
+
+.flatos_spreedsheeter .ct-widget .ct-control-group--center {
+    text-align: center
+}
+
+.flatos_spreedsheeter .ct-widget .ct-control-group--left {
+    float: left
+}
+
+.flatos_spreedsheeter .ct-widget .ct-control-group--right {
+    float: right
+}
+
+.flatos_spreedsheeter .ct-widget .ct-control {
+    margin-left: 16px;
+    position: relative
+}
+
+.flatos_spreedsheeter .ct-widget .ct-control:first-child {
+    margin-left: 0
+}
+
+.flatos_spreedsheeter .ct-widget .ct-control--icon {
+    color: #a4a4a4;
+    cursor: pointer;
+    display: inline-block;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    font-family: icon;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    speak: none;
+    text-transform: none;
+    width: 32px
+}
+
+.flatos_spreedsheeter .ct-widget .ct-control--icon,
+.flatos_spreedsheeter .ct-widget .ct-control--icon:after {
+    border-radius: 2px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.flatos_spreedsheeter .ct-widget .ct-control--icon:after {
+    background: #000;
+    color: #fff;
+    content: attr(data-ct-tooltip);
+    display: block;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    left: -26.5px;
+    opacity: 0;
+    padding: 0 8px;
+    position: absolute;
+    bottom: 37px;
+    font-family: arial, sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    visibility: hidden;
+    width: 85px;
+    word-break: break-word
+}
+
+.flatos_spreedsheeter .ct-widget .ct-control--icon:hover:after {
+    opacity: .8;
+    visibility: visible;
+    -webkit-transition-property: opacity;
+    transition-property: opacity;
+    -webkit-transition-duration: 0s;
+    transition-duration: 0s;
+    -webkit-transition-timing-function: ease-in;
+    transition-timing-function: ease-in;
+    -webkit-transition-delay: 2s;
+    transition-delay: 2s
+}
+
+.flatos_spreedsheeter .ct-widget .ct-control--icon:before {
+    content: ''
+}
+
+.flatos_spreedsheeter .ct-widget .ct-control--icon:hover {
+    background: #eee;
+    color: #646464
+}
+
+.flatos_spreedsheeter .ct-widget .ct-control--active,
+.flatos_spreedsheeter .ct-widget .ct-control--on {
+    background: #a4a4a4;
+    color: #fff
+}
+
+.flatos_spreedsheeter .ct-widget .ct-control--active:hover,
+.flatos_spreedsheeter .ct-widget .ct-control--on:hover {
+    background: #646464;
+    color: #fff
+}
+
+.flatos_spreedsheeter .ct-widget .ct-control--rotate-ccw:before {
+    content: '\e965'
+}
+
+.flatos_spreedsheeter .ct-widget .ct-control--rotate-cw:before {
+    content: '\e966'
+}
+
+.flatos_spreedsheeter .ct-widget .ct-control--clip-vertical:before {
+    font-family: 'docwriter';
+    content: '\eaac'
+}
+
+.flatos_spreedsheeter .ct-widget .ct-control--clip-horizontal:before {
+    font-family: 'docwriter';
+    content: '\eaaa'
+}
+
+.flatos_spreedsheeter .ct-widget .ct-control--crop:before {
+    content: '\ea57'
+}
+
+.flatos_spreedsheeter .ct-widget .ct-control--remove:before {
+    content: '\e9ac'
+}
+
+.flatos_spreedsheeter .ct-widget .ct-control--styles:before {
+    content: '\e90b'
+}
+
+.flatos_spreedsheeter .ct-widget .ct-control--attributes:before {
+    content: '\e994'
+}
+
+.flatos_spreedsheeter .ct-widget .ct-control--code:before {
+    content: '\ea80'
+}
+
+.flatos_spreedsheeter .ct-widget .ct-control--icon.ct-control--muted {
+    cursor: default
+}
+
+.flatos_spreedsheeter .ct-widget .ct-control--icon.ct-control--muted:before {
+    opacity: .5
+}
+
+.flatos_spreedsheeter .ct-widget .ct-control--icon.ct-control--muted:hover {
+    color: #a4a4a4;
+    background: transparent
+}
+
+.flatos_spreedsheeter .ct-widget .ct-control--text {
+    background: #B28A26;
+    border-radius: 2px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 700;
+    height: 32px;
+    overflow: hidden;
+    padding: 0 8px;
+    text-align: center;
+    text-overflow: ellipsis;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    line-height: 32px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    vertical-align: top;
+    width: 100px
+}
+
+.flatos_spreedsheeter .ct-widget .ct-control--text:hover {
+    background: #CEA636
+}
+
+.flatos_spreedsheeter .ct-widget .ct-control--apply,
+.flatos_spreedsheeter .ct-widget .ct-control--insert,
+.flatos_spreedsheeter .ct-widget .ct-control--ok {
+    background: #27ae60
+}
+
+.flatos_spreedsheeter .ct-widget .ct-control--apply:hover,
+.flatos_spreedsheeter .ct-widget .ct-control--insert:hover,
+.flatos_spreedsheeter .ct-widget .ct-control--ok:hover {
+    background: #2cc36b
+}
+
+.flatos_spreedsheeter .ct-widget .ct-control--cancel,
+.flatos_spreedsheeter .ct-widget .ct-control--clear {
+    background: #e74c3c
+}
+
+.flatos_spreedsheeter .ct-widget .ct-control--cancel:hover,
+.flatos_spreedsheeter .ct-widget .ct-control--clear:hover {
+    background: #ea6153
+}
+
+.flatos_spreedsheeter .ct-widget .ct-control--text.ct-control--muted {
+    background: #ccc;
+    cursor: default
+}
+
+.flatos_spreedsheeter .ct-widget .ct-control--text.ct-control--muted:hover {
+    background: #ccc
+}
+
+.flatos_spreedsheeter .ct-widget .ct-control--upload {
+    overflow: hidden
+}
+
+.flatos_spreedsheeter .ct-widget.ct-image-dialog--empty .ct-control--cancel,
+.flatos_spreedsheeter .ct-widget.ct-image-dialog--empty .ct-control--clear,
+.flatos_spreedsheeter .ct-widget.ct-image-dialog--empty .ct-control--crop,
+.flatos_spreedsheeter .ct-widget.ct-image-dialog--empty .ct-control--insert,
+.flatos_spreedsheeter .ct-widget.ct-image-dialog--empty .ct-control--rotate-ccw,
+.flatos_spreedsheeter .ct-widget.ct-image-dialog--empty .ct-control--rotate-cw,
+.flatos_spreedsheeter .ct-widget.ct-image-dialog--empty .ct-progress-bar,
+.flatos_spreedsheeter .ct-widget.ct-image-dialog--populated .ct-control--cancel,
+.flatos_spreedsheeter .ct-widget.ct-image-dialog--populated .ct-control--upload,
+.flatos_spreedsheeter .ct-widget.ct-image-dialog--populated .ct-progress-bar,
+.flatos_spreedsheeter .ct-widget.ct-image-dialog--uploading .ct-control--clear,
+.flatos_spreedsheeter .ct-widget.ct-image-dialog--uploading .ct-control--crop,
+.flatos_spreedsheeter .ct-widget.ct-image-dialog--uploading .ct-control--insert,
+.flatos_spreedsheeter .ct-widget.ct-image-dialog--uploading .ct-control--rotate-ccw,
+.flatos_spreedsheeter .ct-widget.ct-image-dialog--uploading .ct-control--rotate-cw,
+.flatos_spreedsheeter .ct-widget.ct-image-dialog--uploading .ct-control--upload {
+    display: none
+}
+
+.flatos_spreedsheeter .ct-widget .ct-image-dialog__view {
+    background: #eee;
+    position: relative
+}
+
+.flatos_spreedsheeter .ct-widget .ct-image-dialog__view:empty {
+    font-family: icon;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    speak: none;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    line-height: 320px;
+    text-align: center
+}
+
+.flatos_spreedsheeter .ct-widget .ct-image-dialog__view:empty:before {
+    color: #fff;
+    content: '\e90d'
+}
+
+.flatos_spreedsheeter .ct-widget .ct-image-dialog__image {
+    background-color: transparent;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    width: 100%
+}
+
+.flatos_spreedsheeter .ct-widget .ct-image-dialog__file-upload {
+    cursor: pointer;
+    font-size: 400px;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0
+}
+
+.flatos_spreedsheeter .ct-widget.ct-properties-dialog--attributes .ct-properties-dialog__attributes,
+.flatos_spreedsheeter .ct-widget.ct-properties-dialog--styles .ct-properties-dialog__styles {
+    display: block
+}
+
+.flatos_spreedsheeter .ct-widget.ct-properties-dialog--styles .ct-properties-dialog__styles:empty:before {
+    color: #a4a4a4;
+    content: attr(data-ct-empty);
+    display: block;
+    font-style: italic;
+    margin-top: 20px;
+    text-align: center
+}
+
+.flatos_spreedsheeter .ct-widget.ct-properties-dialog--code .ct-properties-dialog__code {
+    display: block
+}
+
+.flatos_spreedsheeter .ct-widget .ct-properties-dialog__view {
+    border: 1px solid #ddd;
+    overflow: auto
+}
+
+.flatos_spreedsheeter .ct-widget .ct-properties-dialog__attributes,
+.flatos_spreedsheeter .ct-widget .ct-properties-dialog__code,
+.flatos_spreedsheeter .ct-widget .ct-properties-dialog__styles {
+    display: none
+}
+
+.flatos_spreedsheeter .ct-widget .ct-properties-dialog__inner-html {
+    border: none;
+    display: block;
+    font-family: courier, Bitstream Vera Sans Mono, Consolas, Courier, monospace;
+    height: 318px;
+    padding: 16px;
+    outline: none;
+    resize: none;
+    width: 100%
+}
+
+.flatos_spreedsheeter .ct-widget .ct-properties-dialog__inner-html--invalid {
+    color: #e74c3c
+}
+
+.flatos_spreedsheeter .ct-widget .ct-table-dialog__view {
+    border: 1px solid #ddd;
+    overflow: auto
+}
+
+.flatos_spreedsheeter .ct-widget .ct-video-dialog__preview:empty {
+    background: #eee;
+    font-family: icon;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    speak: none;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    line-height: 320px;
+    text-align: center
+}
+
+.flatos_spreedsheeter .ct-widget .ct-video-dialog__preview:empty:before {
+    color: #fff;
+    content: '\ea98'
+}
+
+.flatos_spreedsheeter .ct-widget .ct-video-dialog__input {
+    border: none;
+    border-bottom: 1px solid #eee;
+    height: 32px;
+    line-height: 32px;
+    outline: none;
+    padding: 0 4px;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    vertical-align: top;
+    width: 456px
+}
+
+.flatos_spreedsheeter .ct-widget .ct-video-dialog__input:focus {
+    border-bottom: 1px solid #e1e1e1
+}
+
+.flatos_spreedsheeter .ct-widget.ct-anchored-dialog {
+    border-bottom: 2px solid #27ae60;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, .35);
+    font-size: 0;
+    height: 34px;
+    left: 0;
+    margin-left: -144px;
+    margin-top: -48px;
+    position: absolute;
+    top: 0;
+    z-index: 10099
+}
+
+.flatos_spreedsheeter .ct-widget.ct-anchored-dialog:after {
+    border: 16px solid hsla(0, 0%, 100%, 0);
+    border-top-color: #27ae60;
+    content: '';
+    left: 128px;
+    position: absolute;
+    top: 34px
+}
+
+.flatos_spreedsheeter .ct-widget .ct-anchored-dialog__input {
+    border: none;
+    color: #646464;
+    outline: none;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    padding: 0 8px 0 16px;
+    vertical-align: top;
+    width: 256px
+}
+
+.flatos_spreedsheeter .ct-widget .ct-anchored-dialog__button,
+.flatos_spreedsheeter .ct-widget .ct-anchored-dialog__input {
+    height: 32px;
+    line-height: 32px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.flatos_spreedsheeter .ct-widget .ct-anchored-dialog__button {
+    background: #27ae60;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    font-family: icon;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    speak: none;
+    text-transform: none;
+    width: 32px
+}
+
+.flatos_spreedsheeter .ct-widget .ct-anchored-dialog__button:before {
+    color: #fff;
+    content: '\ea10'
+}
+
+.flatos_spreedsheeter .ct-widget .ct-anchored-dialog__button:hover {
+    background: #2cc36b
+}
+
+.flatos_spreedsheeter .ct-widget .ct-anchored-dialog__target-button {
+    background: #fff;
+    cursor: pointer;
+    display: inline-block;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    font-family: icon;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    speak: none;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    width: 32px
+}
+
+.flatos_spreedsheeter .ct-widget .ct-anchored-dialog__target-button:before {
+    color: #a4a4a4;
+    content: '\ea7d'
+}
+
+.flatos_spreedsheeter .ct-widget .ct-anchored-dialog__target-button:hover:before {
+    color: #b1b1b1
+}
+
+.flatos_spreedsheeter .ct-widget .ct-anchored-dialog__target-button--active:before {
+    color: #27ae60
+}
+
+.flatos_spreedsheeter .ct-widget .ct-anchored-dialog__target-button--active:hover:before {
+    color: #2cc36b
+}
+
+@-webkit-keyframes b {
+    0% {
+        opacity: 0;
+        font-size: 32px;
+        -webkit-transform: font-size
+    }
+    25% {
+        font-size: 320px;
+        opacity: 1;
+        -webkit-transform: all
+    }
+    50% {
+        font-size: 320px;
+        opacity: 1;
+        -webkit-transform: all
+    }
+    75% {
+        font-size: 320px;
+        opacity: 1;
+        -webkit-transform: all
+    }
+    to {
+        opacity: 0;
+        -webkit-transform: all
+    }
+}
+
+@keyframes b {
+    0% {
+        opacity: 0;
+        font-size: 32px;
+        -webkit-transform: font-size;
+        transform: font-size
+    }
+    25% {
+        font-size: 320px;
+        opacity: 1;
+        -webkit-transform: all;
+        transform: all
+    }
+    50% {
+        font-size: 320px;
+        opacity: 1;
+        -webkit-transform: all;
+        transform: all
+    }
+    75% {
+        font-size: 320px;
+        opacity: 1;
+        -webkit-transform: all;
+        transform: all
+    }
+    to {
+        opacity: 0;
+        -webkit-transform: all;
+        transform: all
+    }
+}
+
+@-webkit-keyframes c {
+    0% {
+        opacity: 1;
+        -webkit-transform: opacity
+    }
+    99% {
+        opacity: 1;
+        -webkit-transform: opacity
+    }
+    to {
+        opacity: 0;
+        -webkit-transform: opacity
+    }
+}
+
+@keyframes c {
+    0% {
+        opacity: 1;
+        -webkit-transform: opacity;
+        transform: opacity
+    }
+    99% {
+        opacity: 1;
+        -webkit-transform: opacity;
+        transform: opacity
+    }
+    to {
+        opacity: 0;
+        -webkit-transform: opacity;
+        transform: opacity
+    }
+}
+
+.flatos_spreedsheeter .ct-widget.ct-flash {
+    color: hsla(0, 0%, 100%, .9);
+    height: 0;
+    left: 0;
+    position: fixed;
+    font-family: icon;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    speak: none;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    top: 0;
+    width: 0;
+    z-index: 10999
+}
+
+.flatos_spreedsheeter .ct-widget.ct-flash:before {
+    left: 50%;
+    opacity: 0;
+    position: fixed;
+    text-shadow: 0 0 20px rgba(0, 0, 0, .5);
+    top: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.flatos_spreedsheeter .ct-widget.ct-flash--active {
+    -webkit-animation: c 2s ease-in;
+    animation: c 2s ease-in;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards
+}
+
+.flatos_spreedsheeter .ct-widget.ct-flash--active:before {
+    -webkit-animation: b 2s ease-in;
+    animation: b 2s ease-in;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    font-size: 320px;
+    opacity: 1
+}
+
+.flatos_spreedsheeter .ct-widget.ct-flash--ok:before {
+    content: '\ea10';
+    color: #2cc36b;
+}
+
+.flatos_spreedsheeter .ct-widget.ct-flash--no:before {
+    content: '\ea0f';
+    color: #e74c3c;
+}
+
+.flatos_spreedsheeter .ct-widget .ct-grip {
+    cursor: move;
+    font-size: 0;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.flatos_spreedsheeter .ct-widget .ct-grip__bump {
+    background: rgba(70, 70, 70, .15);
+    border-radius: 12px;
+    display: inline-block;
+    height: 12px;
+    margin-left: 12px;
+    width: 12px
+}
+
+.flatos_spreedsheeter .ct-widget .ct-grip__bump:first-child {
+    margin-left: 0
+}
+
+@-webkit-keyframes d {
+    0% {
+        transform: rotate(0deg);
+        -webkit-transform: transform
+    }
+    to {
+        transform: rotate(359deg);
+        -webkit-transform: transform
+    }
+}
+
+@keyframes d {
+    0% {
+        transform: rotate(0deg);
+        -webkit-transform: transform;
+        transform: transform
+    }
+    to {
+        transform: rotate(359deg);
+        -webkit-transform: transform;
+        transform: transform
+    }
+}
+
+.flatos_spreedsheeter .ct-widget.ct-ignition {
+    left: 16px;
+    position: fixed;
+    top: 16px
+}
+
+.flatos_spreedsheeter .ct-widget.ct-ignition .ct-ignition__button {
+    display: none
+}
+
+.flatos_spreedsheeter .ct-widget.ct-ignition--editing .ct-ignition__button--cancel,
+.flatos_spreedsheeter .ct-widget.ct-ignition--editing .ct-ignition__button--confirm,
+.flatos_spreedsheeter .ct-widget.ct-ignition--ready .ct-ignition__button--edit {
+    display: block
+}
+
+.flatos_spreedsheeter .ct-widget.ct-ignition--busy .ct-ignition__button {
+    display: none
+}
+
+.flatos_spreedsheeter .ct-widget.ct-ignition--busy .ct-ignition__button--busy {
+    display: block
+}
+
+.flatos_spreedsheeter .ct-widget .ct-ignition__button {
+    border-radius: 24px;
+    content: '';
+    cursor: pointer;
+    display: block;
+    height: 48px;
+    line-height: 48px;
+    opacity: .9;
+    position: absolute;
+    text-align: center;
+    font-family: icon;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    speak: none;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    width: 48px
+}
+
+.flatos_spreedsheeter .ct-widget .ct-ignition__button:before {
+    color: #fff
+}
+
+.flatos_spreedsheeter .ct-widget .ct-ignition__button--busy {
+    -webkit-animation: d 5s linear;
+    animation: d 5s linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    background: #646464;
+    cursor: default
+}
+
+.flatos_spreedsheeter .ct-widget .ct-ignition__button--busy:before {
+    content: '\e994'
+}
+
+.flatos_spreedsheeter .ct-widget .ct-ignition__button--busy:hover {
+    background: #646464
+}
+
+.flatos_spreedsheeter .ct-widget .ct-ignition__button--confirm {
+    background: #27ae60
+}
+
+.flatos_spreedsheeter .ct-widget .ct-ignition__button--confirm:before {
+    content: '\ea10'
+}
+
+.flatos_spreedsheeter .ct-widget .ct-ignition__button--confirm:hover {
+    background: #2cc36b
+}
+
+.flatos_spreedsheeter .ct-widget .ct-ignition__button--cancel {
+    background: #e74c3c;
+    left: 64px
+}
+
+.flatos_spreedsheeter .ct-widget .ct-ignition__button--cancel:before {
+    content: '\ea0f'
+}
+
+.flatos_spreedsheeter .ct-widget .ct-ignition__button--cancel:hover {
+    background: #ea6153
+}
+
+.flatos_spreedsheeter .ct-widget .ct-ignition__button--edit {
+    background: #B28A26
+}
+
+.flatos_spreedsheeter .ct-widget .ct-ignition__button--edit:before {
+    content: '\e905';
+    -webkit-transition-property: -webkit-transform;
+    transition-property: transform;
+    -webkit-transition-duration: .1s;
+    transition-duration: .1s;
+    -webkit-transition-timing-function: ease-in;
+    transition-timing-function: ease-in
+}
+
+.flatos_spreedsheeter .ct-widget .ct-ignition__button--edit:hover {
+    background: #CEA636
+}
+
+.flatos_spreedsheeter .ct-widget .ct-ignition__button--edit:hover:before {
+    display: inline-block;
+    -webkit-transform: rotate(-15deg);
+    transform: rotate(-15deg)
+}
+
+.flatos_spreedsheeter .ct-widget.ct-inspector {
+    background: #ffffff;
+    border-top: 1px solid #cea636;
+    bottom: 0;
+    height: 32px;
+    left: 0;
+    overflow: hidden;
+    padding: 3px 16px 0;
+    position: fixed;
+    width: 100%
+}
+
+.flatos_spreedsheeter .ct-widget .ct-inspector__tags {
+    width: calc(100% - 128px)
+}
+
+.flatos_spreedsheeter .ct-widget .ct-inspector__tags:after {
+    clear: both;
+    content: "";
+    display: table
+}
+
+.flatos_spreedsheeter .ct-widget .ct-inspector__tags:before {
+    color: #464646;
+    content: '\ea80';
+    display: block;
+    float: left;
+    height: 24px;
+    line-height: 24px;
+    margin-right: 16px;
+    text-align: center;
+    font-family: icon;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    speak: none;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    width: 24px
+}
+
+.flatos_spreedsheeter .ct-widget .ct-inspector__counter {
+    border-left: 1px solid rgba(0, 0, 0, .1);
+    height: 24px;
+    line-height: 24px;
+    margin-right: 16px;
+    position: absolute;
+    right: 0;
+    text-align: right;
+    top: 3px;
+    width: 128px
+}
+
+.flatos_spreedsheeter .ct-widget .ct-tag {
+    background-color: #B28A26;
+    border-radius: 2px 0 0 2px;
+    color: #fff;
+    cursor: pointer;
+    float: left;
+    font-weight: 700;
+    height: 24px;
+    line-height: 24px;
+    margin-left: 24px;
+    padding: 0 8px;
+    position: relative;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, .35)
+}
+
+.flatos_spreedsheeter .ct-widget .ct-tag:after {
+    border-style: solid;
+    border-bottom: 12px solid rgba(255, 0, 0, 0);
+    border-left: 12px solid #B28A26;
+    border-right: none;
+    border-top: 12px solid rgba(255, 0, 0, 0);
+    content: '';
+    display: block;
+    height: 24px;
+    bottom: 0;
+    right: -24px;
+    position: absolute;
+    width: 24px;
+    -moz-transform: scale(.9999)
+}
+
+.flatos_spreedsheeter .ct-widget .ct-tag:first-child {
+    margin-left: 0
+}
+
+.flatos_spreedsheeter .ct-widget .ct-tag:hover {
+    background-color: #4aa3df
+}
+
+.flatos_spreedsheeter .ct-widget .ct-tag:hover:after {
+    border-left-color: #4aa3df
+}
+
+.flatos_spreedsheeter .ct-widget .ct-tag:nth-child(1) {
+    background-color: #8e44ad;
+}
+
+.flatos_spreedsheeter .ct-widget .ct-tag:nth-child(1):after {
+    border-left-color: #8e44ad
+}
+
+.flatos_spreedsheeter .ct-widget .ct-tag:nth-child(1):hover {
+    background-color: #9b50ba
+}
+
+.flatos_spreedsheeter .ct-widget .ct-tag:nth-child(1):hover:after {
+    border-left-color: #9b50ba
+}
+
+.flatos_spreedsheeter .ct-widget .ct-tag:nth-child(2) {
+    background-color: #B28A26
+}
+
+.flatos_spreedsheeter .ct-widget .ct-tag:nth-child(2):after {
+    border-left-color: #B28A26
+}
+
+.flatos_spreedsheeter .ct-widget .ct-tag:nth-child(2):hover {
+    background-color: #CEA636
+}
+
+.flatos_spreedsheeter .ct-widget .ct-tag:nth-child(2):hover:after {
+    border-left-color: #CEA636
+}
+
+.flatos_spreedsheeter .ct-widget .ct-tag:nth-child(3) {
+    background-color: #27ae60
+}
+
+.flatos_spreedsheeter .ct-widget .ct-tag:nth-child(3):after {
+    border-left-color: #27ae60
+}
+
+.flatos_spreedsheeter .ct-widget .ct-tag:nth-child(3):hover {
+    background-color: #2cc36b
+}
+
+.flatos_spreedsheeter .ct-widget .ct-tag:nth-child(3):hover:after {
+    border-left-color: #2cc36b
+}
+
+.flatos_spreedsheeter .ct-widget .ct-tag:nth-child(4) {
+    background-color: #d35400
+}
+
+.flatos_spreedsheeter .ct-widget .ct-tag:nth-child(4):after {
+    border-left-color: #d35400
+}
+
+.flatos_spreedsheeter .ct-widget .ct-tag:nth-child(4):hover {
+    background-color: #ed5e00
+}
+
+.flatos_spreedsheeter .ct-widget .ct-tag:nth-child(4):hover:after {
+    border-left-color: #ed5e00
+}
+
+.flatos_spreedsheeter .ct-widget .ct-tag:nth-child(5) {
+    background-color: #f39c12
+}
+
+.flatos_spreedsheeter .ct-widget .ct-tag:nth-child(5):after {
+    border-left-color: #f39c12
+}
+
+.flatos_spreedsheeter .ct-widget .ct-tag:nth-child(5):hover {
+    background-color: #f4a62a
+}
+
+.flatos_spreedsheeter .ct-widget .ct-tag:nth-child(5):hover:after {
+    border-left-color: #f4a62a
+}
+
+.flatos_spreedsheeter .ct-widget .ct-tag:nth-child(6) {
+    background-color: #16a085
+}
+
+.flatos_spreedsheeter .ct-widget .ct-tag:nth-child(6):after {
+    border-left-color: #16a085
+}
+
+.flatos_spreedsheeter .ct-widget .ct-tag:nth-child(6):hover {
+    background-color: #19b698
+}
+
+.flatos_spreedsheeter .ct-widget .ct-tag:nth-child(6):hover:after {
+    border-left-color: #19b698
+}
+
+.flatos_spreedsheeter .ct-widget.ct-modal {
+    background: rgba(0, 0, 0, .7);
+    height: 0;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 0;
+    z-index: 10009
+}
+
+.flatos_spreedsheeter .ct-widget.ct-modal--transparent {
+    background: transparent
+}
+
+.flatos_spreedsheeter .ct-widget--active.ct-modal {
+    height: 100%;
+    width: 100%
+}
+
+.flatos_spreedsheeter .ct-widget .ct-progress-bar {
+    border: 1px solid #eee;
+    height: 32px;
+    line-height: 32px;
+    padding: 1px;
+    width: 456px
+}
+
+.flatos_spreedsheeter .ct-widget .ct-progress-bar__progress {
+    background: #B28A26;
+    height: 28px
+}
+
+.flatos_spreedsheeter .ct-widget .ct-section {
+    border-bottom: 1px solid #eee;
+    color: #bdbdbd;
+    cursor: pointer;
+    font-style: italic;
+    height: 48px;
+    padding: 0 16px;
+    font-family: arial, sans-serif;
+    font-size: 16px;
+    line-height: 48px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.flatos_spreedsheeter .ct-widget .ct-section:after {
+    clear: both;
+    content: "";
+    display: table
+}
+
+.flatos_spreedsheeter .ct-widget .ct-section:hover {
+    background: #f6f6f6
+}
+
+.flatos_spreedsheeter .ct-widget .ct-section--applied {
+    color: #646464;
+    font-style: normal
+}
+
+.flatos_spreedsheeter .ct-widget .ct-section--applied .ct-section__switch {
+    background-color: #27ae60;
+    border: 1px solid #1e8449
+}
+
+.flatos_spreedsheeter .ct-widget .ct-section--applied .ct-section__switch:before {
+    left: 25px;
+    -webkit-transition-property: left;
+    transition-property: left;
+    -webkit-transition-duration: .1s;
+    transition-duration: .1s;
+    -webkit-transition-timing-function: ease-in;
+    transition-timing-function: ease-in
+}
+
+.flatos_spreedsheeter .ct-widget .ct-section--contains-input .ct-section__label {
+    width: 75%
+}
+
+.flatos_spreedsheeter .ct-widget .ct-section__label {
+    float: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 472px;
+    white-space: nowrap
+}
+
+.flatos_spreedsheeter .ct-widget .ct-section__switch {
+    background-color: #ccc;
+    border: 1px solid #b3b3b3;
+    border-radius: 12px;
+    box-shadow: inset 0 0 2px rgba(0, 0, 0, .1);
+    float: right;
+    height: 24px;
+    margin-top: 12px;
+    position: relative;
+    width: 48px
+}
+
+.flatos_spreedsheeter .ct-widget .ct-section__switch:before {
+    background: #fff;
+    border-radius: 10px;
+    content: '';
+    height: 20px;
+    left: 1px;
+    position: absolute;
+    top: 1px;
+    -webkit-transition-property: left;
+    transition-property: left;
+    -webkit-transition-duration: .1s;
+    transition-duration: .1s;
+    -webkit-transition-timing-function: ease-in;
+    transition-timing-function: ease-in;
+    width: 20px
+}
+
+.flatos_spreedsheeter .ct-widget .ct-section__input {
+    background: #fff;
+    border: none;
+    color: #646464;
+    float: right;
+    height: 47px;
+    outline: none;
+    padding: 0 16px;
+    text-align: right;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    line-height: 48px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    width: 25%
+}
+
+.flatos_spreedsheeter .ct-widget .ct-section__input--invalid {
+    color: #e74c3c
+}
+
+.flatos_spreedsheeter .ct-widget.ct-toolbox {
+    background: hsla(0, 0%, 91%, .9);
+    border: 1px solid hsla(0, 0%, 100%, .5);
+    box-shadow: 0 3px 3px rgba(0, 0, 0, .35);
+    left: 128px;
+    padding: 8px;
+    position: fixed;
+    top: 128px;
+    width: 138px
+}
+
+.flatos_spreedsheeter .ct-widget.ct-toolbox--dragging {
+    opacity: .5
+}
+
+.flatos_spreedsheeter .ct-widget .ct-toolbox__grip {
+    padding: 8px 0
+}
+
+.flatos_spreedsheeter .ct-widget .ct-tool-group {
+    padding: 4px 0
+}
+
+.flatos_spreedsheeter .ct-widget .ct-tool-group:after {
+    clear: both;
+    content: "";
+    display: table
+}
+
+.flatos_spreedsheeter .ct-widget .ct-tool-group:first-child {
+    padding-top: 0
+}
+
+.flatos_spreedsheeter .ct-widget .ct-tool {
+    color: #464646;
+    cursor: pointer;
+    float: left;
+    height: 32px;
+    margin: 4px;
+    margin-right: 4px;
+    position: relative;
+    text-align: center;
+    font-family: icon;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    speak: none;
+    text-transform: none;
+    width: 32px
+}
+
+.flatos_spreedsheeter .ct-widget .ct-tool,
+.flatos_spreedsheeter .ct-widget .ct-tool:after {
+    border-radius: 2px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.flatos_spreedsheeter .ct-widget .ct-tool:after {
+    background: #000;
+    color: #fff;
+    content: attr(data-ct-tooltip);
+    display: block;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    left: -26.5px;
+    opacity: 0;
+    padding: 0 8px;
+    position: absolute;
+    bottom: 37px;
+    font-family: arial, sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    visibility: hidden;
+    width: 85px;
+    word-break: break-word
+}
+
+.flatos_spreedsheeter .ct-widget .ct-tool:hover:after {
+    opacity: .8;
+    visibility: visible;
+    -webkit-transition-property: opacity;
+    transition-property: opacity;
+    -webkit-transition-duration: 0s;
+    transition-duration: 0s;
+    -webkit-transition-timing-function: ease-in;
+    transition-timing-function: ease-in;
+    -webkit-transition-delay: 2s;
+    transition-delay: 2s
+}
+
+.flatos_spreedsheeter .ct-widget .ct-tool:before {
+    line-height: 32px
+}
+
+.flatos_spreedsheeter .ct-widget .ct-tool:nth-child(3n) {
+    margin-right: 0
+}
+
+.flatos_spreedsheeter .ct-widget .ct-tool:hover {
+    background: hsla(0, 0%, 100%, .5)
+}
+
+.flatos_spreedsheeter .ct-widget .ct-tool--disabled {
+    color: rgba(70, 70, 70, .33)
+}
+
+.flatos_spreedsheeter .ct-widget .ct-tool--disabled:hover {
+    background: transparent
+}
+
+.flatos_spreedsheeter .ct-widget .ct-tool--down {
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, .25);
+    line-height: 34px
+}
+
+.flatos_spreedsheeter .ct-widget .ct-tool--down,
+.flatos_spreedsheeter .ct-widget .ct-tool--down:hover {
+    background: rgba(0, 0, 0, .025)
+}
+
+.flatos_spreedsheeter .ct-widget .ct-tool--link:before {
+    content: "\e9cb"
+}
+
+.flatos_spreedsheeter .ct-widget .ct-tool--remove:before {
+    content: "\e9ac"
+}
+
+@-webkit-keyframes e {
+    0% {
+        outline-color: hsla(0, 0%, 100%, 0);
+        -webkit-transform: background-color
+    }
+    25% {
+        outline-color: #f39c12;
+        -webkit-transform: background-color
+    }
+    50% {
+        outline-color: #f39c12;
+        -webkit-transform: background-color
+    }
+    to {
+        outline-color: hsla(0, 0%, 100%, 0);
+        -webkit-transform: background-color
+    }
+}
+
+@keyframes e {
+    0% {
+        outline-color: hsla(0, 0%, 100%, 0);
+        -webkit-transform: background-color;
+        transform: background-color
+    }
+    25% {
+        outline-color: #f39c12;
+        -webkit-transform: background-color;
+        transform: background-color
+    }
+    50% {
+        outline-color: #f39c12;
+        -webkit-transform: background-color;
+        transform: background-color
+    }
+    to {
+        outline-color: hsla(0, 0%, 100%, 0);
+        -webkit-transform: background-color;
+        transform: background-color
+    }
+}
+
+.flatos_spreedsheeter .ct-app,
+.flatos_spreedsheeter .ct-app *,
+.flatos_spreedsheeter .ct-app:after,
+.flatos_spreedsheeter .ct-app:before {
+    box-sizing: border-box
+}
+
+.flatos_spreedsheeter .ct--highlight {
+    outline: 4px solid #f39c12;
+    -webkit-animation: e .5s ease-in;
+    animation: e .5s ease-in;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards
+}
+
+.flatos_spreedsheeter .ct--no-scroll {
+    overflow: hidden
+}
+
+.flatos_spreedsheeter .ct--puesdo-select {
+    background: rgba(0, 0, 0, .1)
+}

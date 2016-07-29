@@ -1,0 +1,21 @@
+[
+    {"mimetype":"text/javascript", "src":"system/lib/core/jquery.min.js", "attr":""},
+    {"mimetype":"text/javascript", "src":"system/lib/core/jquery-ui.min.js", "attr":""},
+    {"mimetype":"text/javascript", "src":"system/lib/core/jquery.tooltipster.min.js", "attr":""},
+    {"mimetype":"text/javascript", "src":"boot/lib/cache.js", "attr":""},
+    {"mimetype":"text/javascript", "src":"system/lib/core/common.js", "attr":""},
+    {"mimetype":"text/javascript", "src":"system/lib/api/apicall.js", "attr":""},
+    {"mimetype":"text/javascript", "src":"system/lib/api/apiuser.js", "attr":""},
+    {"mimetype":"text/javascript", "src":"system/lib/api/apiuserconfig.js", "attr":""},
+    {"mimetype":"text/javascript", "src":"system/lib/api/apifs.js", "attr":""},
+    {"mimetype":"text/javascript", "src":"system/lib/api/apifile.js", "attr":""},
+    {"mimetype":"text/javascript", "src":"system/lib/core/fs.js", "attr":""},
+    {"mimetype":"text/javascript", "src":"system/lib/core/file.js", "attr":""},
+    {"mimetype":"text/javascript", "src":"system/lib/core/callback.js", "attr":""},
+    {"mimetype":"text/javascript", "src":"system/lib/core/notification.js", "attr":""},
+    {"mimetype":"text/javascript", "src":"system/lib/core/require.js", "attr":""},
+    {"mimetype":"text/javascript", "src":"system/lib/core/ajax.js", "attr":""},
+    {"mimetype":"text/javascript", "src":"system/lib/core/layout.js", "attr":""},
+    {"mimetype":"text/javascript", "src":"system/lib/core/interface.js", "attr":""},
+    {"mimetype":"text/javascript", "src":"boot/init.js", "attr":""}
+]

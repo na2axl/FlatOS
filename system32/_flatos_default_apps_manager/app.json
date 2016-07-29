@@ -1,0 +1,8 @@
+{
+    "registred_apps": {
+        "flatos_codemaster": "abap,abc,as,ada,asm,conf,htaccess,cpp,c,h,clj,cbl,coffee,cfm,cs,css,d,dart,diff,e,ejs,ex,frt,ftl,gcode,gitignore,glsl,go,groovy,haml,hs,hx,html,ini,io,jade,java,js,json,jsp,jsx,tex,less,liquid,lisp,ls,lua,md,mask,matlab,mel,nix,m,ml,pas,pl,php,ps1,py,r,rb,sass,scala,scss,sh,tpl,sql,svg,tcl,txt,textile,twig,ts,vbs,xml,xq,yaml",
+        "flatos_webplayer": "mp4,mp3,m4a,avi,webm",
+        "flatos_docwriter": "docw",
+        "flatos_texteditor": "txt"
+    }
+}
